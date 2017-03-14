@@ -8,6 +8,8 @@ var app = require('../app');
 var debug = require('debug')('onzeur:server');
 var http = require('http');
 
+var peerServer = require('./peerServer');
+
 /**
  * Get port from environment and store in Express.
  */
@@ -26,8 +28,10 @@ var server = http.createServer(app);
  */
 
 server.listen(port);
+
 server.on('error', onError);
 server.on('listening', onListening);
+
 
 /**
  * Normalize a port into a number, string, or false.
@@ -65,11 +69,11 @@ function onError(error) {
   // handle specific listen errors with friendly messages
   switch (error.code) {
     case 'EACCES':
-      console.error(bind + ' requires elevated privileges');
+      console.error("[HTTP]"+bind + ' requires elevated privileges');
       process.exit(1);
       break;
     case 'EADDRINUSE':
-      console.error(bind + ' is already in use');
+      console.error("[HTTP]"+bind + ' is already in use');
       process.exit(1);
       break;
     default:
@@ -86,5 +90,10 @@ function onListening() {
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
-  debug('Listening on ' + bind);
+  console.log('[HTTP] Listening on ' + bind);
 }
+
+/**
+ * Run PeerServer !
+ */
+peerServer.start();
