@@ -10,12 +10,32 @@
     <script src="./javascripts/core.js"></script>
   </head>
   <body>
+  <header>
+    <h1>Peers Manager</h1>
+  </header>
     <div>
-      <h1>Peers Manager</h1>
-      <h2>Ma peer ID :</h2>
+      <h2>My IDs :</h2>
       <p id="peerID"></p>
-      <h2>Les paires connectés :</h2>
+      <h2>The connected peers available :</h2>
       <p id="peers"></p>
+    </div>
+    <div>
+      <h2>Logs</h2>
+      <p>
+        <table>
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Sender</th>
+              <th>Receipter</th>
+              <th>Topic</th>
+            </tr>
+          </thead>
+          <tbody id="log">
+
+          </tbody>
+        </table>
+      </p>
     </div>
   </body>
 </html>
