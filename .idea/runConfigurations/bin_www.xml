@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="bin/www" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="bin/www" application-parameters="3000 taymiri http://localhost:3001" working-dir="$PROJECT_DIR$">
+  <configuration default="false" name="bin/www" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="bin/www" application-parameters="9000 serveur" working-dir="$PROJECT_DIR$">
     <envs>
       <env name="DEBUG" value="Onzeur:*" />
     </envs>

@@ -1,74 +1,60 @@
 // => http://stackoverflow.com/questions/10058226/send-response-to-all-clients-except-sender-socket-io
+/*
+{
+ ping: discover hosts on network
+ pong: reply to ping
+ query: search for a file
+ query hit: reply to query
+ push: download request for firewalled servants
+ }
+*/
 
-var io_client = require( 'socket.io-client' );
-var peers = [];
+
+var logger = require('../logger');
+var peerClient = require('./peerClient.js'); // ConnectionHandle.
+var peerServer = require('./peerServer.js');
+//var peerFunctions = require('./peerFunctions');
+//var P2Pconfig = require('../config');
 var myId = {};
 
-
 module.exports = {
+    myId: myId,
     start: function(server, ip, port) {
-        console.log("[PeerManager] Starting Peer Manager");
+        //////// PSEUDO CODE /////////
+        /// 1) Démarrer mon serveur
+        /// 1bis) Si j'ai passé une IP en paramètre se connecter au serveur en question en tant que client
 
-        // Define an user pseudo
+
+
+        //// Define an user pseudo
         if (process.argv[3] == undefined)
             pseudo = "guest_" + new Date().getTime();
         else
             pseudo = process.argv[3];
 
-        console.log("[PeerManager] Welcome " + pseudo);
-
+        //// Define my identity.
         myId = {
             "pseudo": pseudo,
             "server":server,
-            "ip": ip,
-            "port": port
+            "addr": ip.address+":"+port,
+            "ip":ip.address,
+            "port":port
         };
 
-        /*** CREATION OF A P2P SERVER ***/
+        logger.silly("[PeerManager] Hello : " + pseudo +"\n");
 
-        var io = require('socket.io').listen(server);        // this is the socket.io server
-        io.sockets.on("connection", function (socket) {
-            console.log('[PeerManager] A Client has Connected to this Server');
+        // ************ SERVER ********************//
+        var serverP2P= new peerServer(server, myId);
 
-            /*
-            socket.on('connect', function () {
-                socket.emit('message', "TOTO2");
-            });*/
-            socket.on("New Connection", function (data) {
-                console.log("[PeerManager]Server New Connection with : "+ data.pseudo);
-                peers.push(data);
-                //socket.emit('New Connection', myId.pseudo); //Forward Message to Second Server
-                io.emit('AskConnection', data); // Ask connection broadcast
-                console.log("[PeerManager] Search other peers to connect...");
-            });
 
-            socket.on('message', function (data) {
-                console.log("[PeerManager] Message : "+ data);
-            });
-
-            socket.on("disconnect", function (data) {
-                socket.broadcast.emit("New Disconnection",'UD,' + socket.id ); //Send to Everyone but NOT me
-                console.log("disconnecting " );
-            });
-        });
-
-        /* CREATION A P2P CLIENT */
-        if (process.argv[4] != undefined)
-        {
-            var socket2 = io_client.connect(process.argv[4]);
-            socket2.on('connect', function () {
-                console.log("[PeerManager] Connection to "+ process.argv[4] + " ... OK !");
-                socket2.emit('New Connection', myId);
-
-            });
-            socket2.on('New Connection', function (data) {
-                console.log("[PeerManager]Client New connection with "+ data);
-
-            });
-            socket2.on('message', function (data) {
-                console.log("[PeerManager] Message reçu : "+ data);
-            });
+        //************* CLIENT ******************** //
+        to = process.argv[4];
+        if (to != undefined) {
+            //First connection
+            var client = new peerClient(to, myId); // Create a new peer connection with arg if specify.
+            //peers.push(client);
         }
+
 
         // Le but est de gérer la création d'un réseau P2P entre plusieurs serveur de ce projet.
         // De gérer les connexions entre pairs
@@ -78,9 +64,6 @@ module.exports = {
     },
     getPseudo: function()
     {
-        return pseudo;
+        return myId.pseudo;
     }
-
-
-
 };

@@ -11,7 +11,7 @@ var http = require('http');
 var peerManager = require('../src/peerManager.js');
 var mp3Manager = require('../src/mp3Manager.js');
 var fluxManager = require('../src/fluxManager.js');
-
+var logger = require('../logger.js');
 
 /**
  * Get port from environment and store in Express.
@@ -33,7 +33,7 @@ var server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port);
+server.listen(port, "127.0.0.1");
 
 server.on('error', onError);
 server.on('listening', onListening);
@@ -75,11 +75,11 @@ function onError(error) {
   // handle specific listen errors with friendly messages
   switch (error.code) {
     case 'EACCES':
-      console.error("[HTTP]"+bind + ' requires elevated privileges');
+      logger.error("[HTTP]"+bind + ' requires elevated privileges');
       process.exit(1);
       break;
     case 'EADDRINUSE':
-      console.error("[HTTP]"+bind + ' is already in use');
+      logger.error("[HTTP]"+bind + ' is already in use');
       process.exit(1);
       break;
     default:
@@ -96,7 +96,7 @@ function onListening() {
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
-  console.log('[HTTP] Listening on ' + bind);
+  logger.silly('[HTTP] Listening on ' + bind);
 
   /**
    * Run PeerManager !
