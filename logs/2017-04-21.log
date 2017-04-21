@@ -5186,3 +5186,153 @@
     at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
     at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
     at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+22:12:0 - silly: [HTTP] Listening on port 9000
+22:12:0 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+
+22:12:0 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:161
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+22:12:1 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:205
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+22:12:53 - silly: [HTTP] Listening on port 9000
+22:12:53 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+
+22:12:53 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:161
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+22:12:53 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:205
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+22:15:53 - silly: [HTTP] Listening on port 9000
+22:15:53 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+
+22:15:54 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:161
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+22:15:54 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:205
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+22:17:54 - silly: [HTTP] Listening on port 9000
+22:17:54 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+
+22:17:54 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:161
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+22:17:54 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:205
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+22:18:21 - silly: [HTTP] Listening on port 9000
+22:18:21 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+
+22:18:21 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:161
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+22:18:21 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:205
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+22:26:42 - silly: [HTTP] Listening on port 9000
+22:26:42 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+
+22:26:42 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:161
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+22:26:42 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:205
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
