@@ -181,30 +181,37 @@ module.exports={
                 } // endIf "< TTLMax"
 
                 //In all case, create pong from me to dest !
-                var pong = {
-                    from:{
-                        addr:myId.addr,
-                        pseudo:myId.pseudo,
-                        ip:myId.ip,
-                        port: myId.port
-                    },
-                    to:data.from,
-                    subject:"pong",
-                    message:"",
-                    maxTTL:data.maxTTL,
-                    currentTTL:data.currentTTL,
-                    road:data.road
-                };
+                if (data.subject == "ping")
+                {
+                    var pong = {
+                        from:{
+                            addr:myId.addr,
+                            pseudo:myId.pseudo,
+                            ip:myId.ip,
+                            port: myId.port
+                        },
+                        to:data.from,
+                        subject:"pong",
+                        message:"",
+                        maxTTL:data.maxTTL,
+                        currentTTL:data.currentTTL,
+                        road:data.road
+                    };
 
-                if (peers.length >= P2Pconfig.maxConnectionsPerPeer)
-                    pong.message = "busy";
-                else
-                    pong.message = "available";
+                    if (peers.length >= P2Pconfig.maxConnectionsPerPeer)
+                        pong.message = "busy";
+                    else
+                        pong.message = "available";
 
 
-                    logger.silly("[Pong] ("+pong.currentTTL+"/"+pong.maxTTL+") : from "+pong.from.pseudo+" ---> to: "+pong.to.pseudo);
-                //todo:verifier si 5/5 paires
-                socket.emit('Pong', pong); // send pong to my client
+                        logger.silly("[Pong] ("+pong.currentTTL+"/"+pong.maxTTL+") : from "+pong.from.pseudo+" ---> to: "+pong.to.pseudo);
+                    //todo:verifier si 5/5 paires
+                    socket.emit('Pong', pong); // send pong to my client
+                }
+                else if (data.suject == "queryHit")
+                {
+
+                }
             }
     },
 

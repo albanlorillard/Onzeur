@@ -5089,3 +5089,100 @@
 17:40:30 - silly: [Pong] (3/3) :  from client4 ---> to: client3 me:client
 17:40:30 - silly: [PONG] Reçu de client4 ( 127.0.0.1:9004 ) 
 17:40:30 - silly: [Pong] (3/3) :  from client4 ---> to: client3 me:client
+18:15:20 - silly: ---- Listage de mes connections ! ---- 
+18:15:20 - silly: ---- Listage de mes connections ! ---- 
+18:15:20 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:dGy82mrl6ldxe971AAAD
+18:15:20 - silly: Pair n°1 : client (127.0.0.1:9001). Mon rôle: client. socketId:3inp1uGku-PHSrS1AAAA
+18:15:20 - silly: Pair n°2 : client (127.0.0.1:9001). Mon rôle: server. socketId:xKbmRUWUlShnpBrOAAAA
+18:15:20 - silly: Pair n°3 : client3 (127.0.0.1:9003). Mon rôle: server. socketId:LRJY-SZgqsF-rFW4AAAH
+18:15:20 - silly: [PeerServer] A client disconnects 
+18:15:20 - silly: Pair n°0 : client (127.0.0.1:9001). Mon rôle: server. socketId:erl0ojqDbFqNmVbOAAAA
+18:15:20 - silly: [PeerServer] A client disconnects 
+18:15:20 - silly: ---- Listage de mes connections ! ---- 
+18:15:20 - silly: ---- Listage de mes connections ! ---- 
+18:15:20 - silly: Pair n°0 : client (127.0.0.1:9001). Mon rôle: server. socketId:4NPPzRzTsYhWijAqAAAC
+18:15:20 - silly: Pair n°1 : client2 (127.0.0.1:9002). Mon rôle: server. socketId:dGy82mrl6ldxe971AAAD
+18:15:20 - silly: [PeerServer] A client disconnects 
+18:15:20 - silly: ---- Listage de mes connections ! ---- 
+18:15:20 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:4NPPzRzTsYhWijAqAAAC
+18:15:20 - silly: Pair n°1 : client2 (127.0.0.1:9002). Mon rôle: server. socketId:3inp1uGku-PHSrS1AAAA
+18:15:20 - silly: Pair n°2 : client2 (127.0.0.1:9002). Mon rôle: client. socketId:xKbmRUWUlShnpBrOAAAA
+18:15:20 - silly: Pair n°3 : client4 (127.0.0.1:9004). Mon rôle: client. socketId:erl0ojqDbFqNmVbOAAAA
+18:15:20 - silly: [PeerServer] A client disconnects 
+18:15:20 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:dGy82mrl6ldxe971AAAD
+18:15:20 - silly: Pair n°1 : client (127.0.0.1:9001). Mon rôle: client. socketId:3inp1uGku-PHSrS1AAAA
+18:15:20 - silly: Pair n°2 : client (127.0.0.1:9001). Mon rôle: server. socketId:xKbmRUWUlShnpBrOAAAA
+18:15:20 - silly: [PeerServer] A client disconnects 
+18:15:21 - silly: ---- Listage de mes connections ! ---- 
+18:15:21 - silly: ---- Listage de mes connections ! ---- 
+18:15:21 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:4NPPzRzTsYhWijAqAAAC
+18:15:21 - silly: Pair n°1 : client4 (127.0.0.1:9004). Mon rôle: client. socketId:erl0ojqDbFqNmVbOAAAA
+18:15:21 - silly: [PeerClient] A server disconnects 
+18:15:21 - silly: ---- Listage de mes connections ! ---- 
+18:15:21 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:4NPPzRzTsYhWijAqAAAC
+18:15:21 - silly: Pair n°1 : client4 (127.0.0.1:9004). Mon rôle: client. socketId:erl0ojqDbFqNmVbOAAAA
+18:15:21 - silly: [PeerServer] A client disconnects 
+18:15:21 - silly: Pair n°0 : client (127.0.0.1:9001). Mon rôle: server. socketId:4NPPzRzTsYhWijAqAAAC
+18:15:21 - silly: [PeerServer] A client disconnects 
+18:15:23 - silly: ---- Listage de mes connections ! ---- 
+18:15:23 - silly: ---- Listage de mes connections ! ---- 
+18:15:23 - silly: [PeerServer] A client disconnects 
+18:15:23 - silly: [PeerServer] A client disconnects 
+18:15:39 - silly: [HTTP] Listening on port 9000
+18:15:39 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+
+18:16:20 - silly: [HTTP] Listening on port 9001
+18:16:20 - silly: [PeerManager] Bonjour client ( 127.0.0.1:9001 ) 
+
+18:16:20 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+18:16:20 - silly: [Ping] (1/3) : client (127.0.0.1:9001)
+18:16:20 - silly: [PeerServer] Un nouveau client se connecte ! 
+18:16:20 - silly: ---- Listage de mes connections ! ---- 
+18:16:20 - silly: Pair n°0 : client (127.0.0.1:9001). Mon rôle: server. socketId:UABAviSrfOWuSH5VAAAA
+18:16:20 - silly: ---- Listage de mes connections ! ---- 
+18:16:20 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:UABAviSrfOWuSH5VAAAA
+18:16:20 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+18:16:20 - silly: [Ping] (2/3) : client (127.0.0.1:9001)
+18:16:20 - silly: ---- Liste des routes du ping de client (127.0.0.1:9001) : ---- 
+18:16:20 - silly: 0 :serveur (127.0.0.1:9000). C'est un server
+18:16:20 - silly: [Ping] Envoie via le server à client (127.0.0.1:9001)...
+18:16:20 - silly: [Pong] (2/3) : from serveur ---> to: client
+18:16:20 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+18:16:20 - silly: Loop detected
+18:16:20 - silly: [PONG] Reçu de serveur ( 127.0.0.1:9000 ) 
+18:16:20 - silly: [Pong] (2/3) :  from serveur ---> to: client me:client
+18:16:20 - silly: [Pong] Ce pong m'est destiné !
+18:16:20 - silly: [PONG] Déjà connecté à serveur (127.0.0.1:9000)
+18:43:52 - silly: ---- Listage de mes connections ! ---- 
+18:43:52 - silly: [PeerClient] A server disconnects 
+18:45:36 - silly: [HTTP] Listening on port 9000
+18:45:56 - silly: [HTTP] Listening on port 9000
+18:46:11 - silly: [HTTP] Listening on port 9000
+18:46:21 - silly: [HTTP] Listening on port 9001
+18:48:22 - silly: [HTTP] Listening on port 9001
+18:48:51 - silly: [HTTP] Listening on port 9001
+18:49:32 - silly: [HTTP] Listening on port 9001
+18:49:32 - silly: [PeerManager] Bonjour client ( 127.0.0.1:9001 ) 
+
+18:49:32 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:161
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+18:49:32 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:205
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)

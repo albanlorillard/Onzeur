@@ -1,4 +1,3 @@
-var ss = require('socket.io-stream');
 var path = require('path');
 
 var logger = require('../logger');
@@ -53,23 +52,32 @@ function peerServer(httpServer, myId) {
 
         });
 
+        socket.on("Query", function(data)
+        {
+
+        });
+
+        socket.on("QueryHit", function(data)
+        {
+
+        });
+
         socket.on("disconnect", function () {
             peerFunctions.unsetPeer(socket.id);
             logger.silly("[PeerServer] A client disconnects ");
         });
 
-            /*
             var delivery = dl.listen(socket);
             delivery.on('receive.success',function(file){
-
+            logger.log('receive a mp3');
                 fs.writeFile(file.name, file.buffer, function(err){
                     if(err){
-                        console.log('File could not be saved: ' + err);
+                        logger.log('File could not be saved: ' + err);
                     }else{
-                        console.log('File ' + file.name + " saved");
+                        logger.log('File ' + file.name + " saved");
                     };
                 });
-            })*/
+            });
 
     });
 }

@@ -1,14 +1,10 @@
 var P2Pconfig = require('../config');
 
 var io = require( 'socket.io-client' );
-var ss = require('socket.io-stream');
-var fs = require('fs');
 
 var logger = require ('../logger');
 var peerFunctions = require ('./peerFunctions');
 var peerManager = require('./peerManager'); // ConnectionHandle.
-var peerServer = require('./peerServer');
-var dl  = require('delivery');
 
 
 function peerClient(ipDest, myId) {
@@ -67,21 +63,36 @@ function peerClient(ipDest, myId) {
 
     socketCl.on('Pong', function(data)
     {
-        logger.silly("[PONG] Reçu de "+ data.from.pseudo + " ( "+data.from.addr+" ) " );
-        logger.silly("[Pong] ("+data.currentTTL+"/"+data.maxTTL+") :  from "+data.from.pseudo+" ---> to: "+data.to.pseudo+ " me:"+myId.pseudo);
+        logger.silly("["+data.subject+"] Reçu de "+ data.from.pseudo + " ( "+data.from.addr+" ) " );
+        logger.silly("["+data.subject+"] ("+data.currentTTL+"/"+data.maxTTL+") :  from "+data.from.pseudo+" ---> to: "+data.to.pseudo+ " me:"+myId.pseudo);
 
         if (data.to.addr == myId.addr)
         {
-            logger.silly("[Pong] Ce pong m'est destiné !");
-            if (peerFunctions.getPeers().length < P2Pconfig.maxConnectionsPerPeer)
+            logger.silly("["+data.subject+"] Ce pong m'est destiné !");
+
+            if (data.subject == "pong")
             {
-                if (!peerFunctions.peerAlreadyConnected(data.from.addr))
-                    new peerClient(data.from.addr,myId);
+                if (peerFunctions.getPeers().length < P2Pconfig.maxConnectionsPerPeer)
+                {
+                    if (!peerFunctions.peerAlreadyConnected(data.from.addr))
+                        new peerClient(data.from.addr,myId);
+                    else
+                        logger.silly("["+data.subject+"] Déjà connecté à "+ data.from.pseudo + ' ('+data.from.addr+')');
+                }
                 else
-                    logger.silly("[PONG] Déjà connecté à "+ data.from.pseudo + ' ('+data.from.addr+')');
+                    logger.silly("["+data.subject+"] Too Many Connection : "+ P2Pconfig.maxConnectionsPerPeer);
+            }
+            else if (data.subject == "queryHit")
+            {
+               // TODO QUERYHIT
+                logger.silly("["+data.subject+"] Reçu");
+
             }
             else
-                logger.silly("[PONG] Too Many Connection : "+ P2Pconfig.maxConnectionsPerPeer);
+            {
+                logger.silly("["+data.subject+"] sujet inconnu");
+            }
+
         }
         else
         {
@@ -111,26 +122,8 @@ function peerClient(ipDest, myId) {
 
     socketCl.on('Query', function(data) {
         logger.silly("On me demande à la barre ! Genre:" /*+ data.message.genre*/);
-        var socket = io.connect('http://' + data.from);
 
-        socket.on("connect", function()
-        {
-            logger.silly("eee");
-            delivery = dl.listen( socket );
-            delivery.connect();
 
-            delivery.on('delivery.connect',function(delivery){
-                logger.silly("send");
-                delivery.send({
-                    name: '02_As_you_know.mp3',
-                    path : './mp3/02_As_you_know.mp3'
-                });
-
-                delivery.on('send.success',function(file){
-                    console.log('File sent successfully!');
-                });
-            });
-        });
 
 
     });

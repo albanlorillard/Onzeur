@@ -106,7 +106,7 @@ function onListening() {
 /**
  * Mp3 Manager
  */
-//mp3Manager.start();
+mp3Manager.start();
 
 /**
  * flux Manager

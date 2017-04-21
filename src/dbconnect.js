@@ -26,7 +26,7 @@ pool.on('enqueue', function () {
 module.exports=pool;
 
 
-/*var connection;
+var connection;
 function handleDisconnect() {
     connection = mysql.createConnection(configDB); // Recreate the connection, since
                                                     // the old one cannot be reused.
@@ -57,6 +57,6 @@ function handleDisconnect() {
 
 handleDisconnect();
  module.exports=connection;
-*/
+
 
 
