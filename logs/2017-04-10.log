@@ -7976,3 +7976,1263 @@
 21:47:11 - silly: [PONG] Reçu avec le message : 127.0.0.1:9000
 21:47:11 - silly: [PONG] Ce pong m'est destiné !
 21:47:11 - silly: [PONG] Déjà connecté à lui.
+22:14:29 - silly: peer[n]:addr/id/myRole
+22:14:29 - silly: [PeerServer] A client disconnects 
+22:14:30 - silly: [HTTP] Listening on port 9002
+22:14:30 - silly: [PeerManager] Hello : client2
+
+22:14:30 - silly: [PeerServer] New client connected !
+22:14:30 - silly: peer[n]:addr/id/myRole
+22:14:30 - silly: peer[0]:127.0.0.1:16815/jbpnJWdEGLAim3REAAAE/server
+22:14:30 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:14:30 - silly: peer[n]:addr/id/myRole
+22:14:30 - silly: peer[0]:127.0.0.1:9000/jbpnJWdEGLAim3REAAAE/client
+22:14:30 - silly: [PING 1/3] : client2
+22:14:30 - silly: [PING] Reçu FROM undefined
+22:14:30 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:14:30 - silly: Road 0 :serveur
+22:14:30 - silly: [PONG 2/3] : undefined
+22:14:30 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9002
+22:14:30 - silly: [PONG] Reçu avec le message : 127.0.0.1:9000
+22:14:30 - silly: [PONG] Ce pong m'est destiné !
+22:14:30 - silly: [PONG] Déjà connecté à lui.
+22:15:0 - silly: peer[n]:addr/id/myRole
+22:15:0 - silly: [PeerServer] A client disconnects 
+22:15:4 - silly: [HTTP] Listening on port 9000
+22:15:4 - silly: [PeerManager] Hello : serveur
+
+22:15:9 - silly: [HTTP] Listening on port 9001
+22:15:9 - silly: [PeerManager] Hello : client
+
+22:15:9 - silly: [PeerServer] New client connected !
+22:15:9 - silly: peer[n]:addr/id/myRole
+22:15:9 - silly: peer[0]:127.0.0.1:16833/vuNuV6mIbWa7mwN9AAAA/server
+22:15:9 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:15:9 - silly: peer[n]:addr/id/myRole
+22:15:9 - silly: peer[0]:127.0.0.1:9000/vuNuV6mIbWa7mwN9AAAA/client
+22:15:9 - silly: [PING 1/3] : client
+22:15:9 - silly: [PING] Reçu FROM undefined
+22:15:9 - silly: [Ping] TTL:2/3. From:127.0.0.1:9001 to:
+22:15:9 - silly: Road 0 :serveur
+22:15:9 - silly: [PONG 2/3] : undefined
+22:15:9 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9001
+22:15:9 - silly: [PONG] Reçu avec le message : 127.0.0.1:9000
+22:15:9 - silly: [PONG] Ce pong m'est destiné !
+22:15:16 - silly: [PONG] Déjà connecté à lui.
+22:15:48 - silly: peer[n]:addr/id/myRole
+22:15:48 - silly: [PeerServer] A client disconnects 
+22:15:48 - silly: [HTTP] Listening on port 9001
+22:15:48 - silly: [PeerManager] Hello : client
+
+22:15:49 - silly: [PeerServer] New client connected !
+22:15:49 - silly: peer[n]:addr/id/myRole
+22:15:49 - silly: peer[0]:127.0.0.1:16849/82Ia-tq9kjk73NYiAAAB/server
+22:15:49 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:15:49 - silly: peer[n]:addr/id/myRole
+22:15:49 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:15:49 - silly: [PING 1/3] : client
+22:15:49 - silly: [PING] Reçu FROM undefined
+22:15:49 - silly: [Ping] TTL:2/3. From:127.0.0.1:9001 to:
+22:15:49 - silly: Road 0 :serveur
+22:15:49 - silly: [PONG 2/3] : undefined
+22:15:52 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9001
+22:15:52 - silly: [PONG] Reçu avec le message : 127.0.0.1:9000
+22:15:52 - silly: [PONG] Ce pong m'est destiné !
+22:15:52 - silly: [PONG] Déjà connecté à lui.
+22:15:55 - silly: [HTTP] Listening on port 9002
+22:15:55 - silly: [PeerManager] Hello : client2
+
+22:15:55 - silly: [PeerServer] New client connected !
+22:15:55 - silly: peer[n]:addr/id/myRole
+22:15:55 - silly: peer[0]:127.0.0.1:16849/82Ia-tq9kjk73NYiAAAB/server
+22:15:55 - silly: peer[1]:127.0.0.1:16861/IYnC1BZo_iwP406QAAAC/server
+22:15:55 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:15:55 - silly: peer[n]:addr/id/myRole
+22:15:55 - silly: peer[0]:127.0.0.1:9000/IYnC1BZo_iwP406QAAAC/client
+22:15:55 - silly: [PING 1/3] : client2
+22:15:55 - silly: [PING] Reçu FROM undefined
+22:15:55 - silly: [PING] Reçu ! FROM undefined
+22:15:55 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:15:55 - silly: Road 0 :serveur
+22:15:55 - silly: [PING 2/3] : client2
+22:15:55 - silly: [PING] Envoie à 127.0.0.1:16849...
+22:15:55 - silly: [PONG 2/3] : undefined
+22:15:55 - silly: [PING 2/3] : client2
+22:15:55 - silly: [PING] Envoie pong
+22:15:55 - silly: [PONG 2/3] : dest final: 127.0.0.1:9001
+22:15:55 - silly: [PONG] Reçu FROM undefined
+22:15:55 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9002
+22:15:55 - silly: [PONG] Reçu avec le message : 127.0.0.1:9000
+22:15:55 - silly: [PONG] Ce pong m'est destiné !
+22:15:55 - silly: [PONG] Déjà connecté à lui.
+22:15:55 - silly: [PONG 1/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9002
+22:15:55 - silly: [PONG] Reçu avec le message : 127.0.0.1:9001
+22:15:55 - silly: [PONG] Ce pong m'est destiné !
+22:15:55 - silly: [PeerServer] New client connected !
+22:15:55 - silly: peer[n]:addr/id/myRole
+22:15:55 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:15:55 - silly: peer[1]:127.0.0.1:54872/9gdqr_c71UM0A3-OAAAA/server
+22:15:55 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:15:55 - silly: peer[n]:addr/id/myRole
+22:15:55 - silly: peer[0]:127.0.0.1:9000/IYnC1BZo_iwP406QAAAC/client
+22:15:55 - silly: peer[1]:127.0.0.1:9000/9gdqr_c71UM0A3-OAAAA/client
+22:15:55 - silly: [PING 1/3] : client2
+22:15:55 - silly: [PING] Reçu FROM undefined
+22:15:55 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:15:55 - silly: Road 0 :client
+22:15:55 - silly: [PING 2/3] : client2
+22:15:55 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:15:55 - silly: [PONG 2/3] : undefined
+22:15:55 - silly: [PONG 2/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9002
+22:15:55 - silly: [PONG] Reçu avec le message : 127.0.0.1:9001
+22:15:55 - silly: [PONG] Ce pong m'est destiné !
+22:15:55 - silly: [PeerServer] New client connected !
+22:15:55 - silly: peer[n]:addr/id/myRole
+22:15:55 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:15:55 - silly: peer[1]:127.0.0.1:54872/9gdqr_c71UM0A3-OAAAA/server
+22:15:55 - silly: peer[2]:127.0.0.1:54882/ElD3K_fP7LGt7JRFAAAB/server
+22:15:55 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:15:55 - silly: peer[n]:addr/id/myRole
+22:15:55 - silly: peer[0]:127.0.0.1:9000/IYnC1BZo_iwP406QAAAC/client
+22:15:55 - silly: peer[1]:127.0.0.1:9000/9gdqr_c71UM0A3-OAAAA/client
+22:15:55 - silly: peer[2]:127.0.0.1:9000/ElD3K_fP7LGt7JRFAAAB/client
+22:15:55 - silly: [PING 1/3] : client2
+22:15:55 - silly: [PING] Reçu FROM undefined
+22:15:55 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:15:55 - silly: Road 0 :client
+22:15:55 - silly: [PING 2/3] : client2
+22:15:55 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:15:55 - silly: [PING 2/3] : client2
+22:15:55 - silly: [PING] Envoie à 127.0.0.1:54872...
+22:15:55 - silly: [PONG 2/3] : undefined
+22:15:55 - silly: [PING] Reçu ! FROM undefined
+22:15:55 - silly: [PONG] Reçu FROM undefined
+22:15:55 - silly: [PING 2/3] : client2
+22:15:55 - silly: [PING] Envoie pong
+22:15:55 - silly: [PONG 2/3] : dest final: 127.0.0.1:9002
+22:15:55 - silly: [PONG 2/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9002
+22:15:55 - silly: [PONG] Reçu avec le message : 127.0.0.1:9001
+22:15:55 - silly: [PONG] Ce pong m'est destiné !
+22:15:55 - silly: [PONG 1/3] : REçU de 127.0.0.1:9002 dest : 127.0.0.1:9002
+22:15:55 - silly: [PONG] Reçu avec le message : 127.0.0.1:9002
+22:15:55 - silly: [PONG] Ce pong m'est destiné !
+22:15:55 - silly: [PeerServer] New client connected !
+22:15:55 - silly: peer[n]:addr/id/myRole
+22:15:55 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:15:55 - silly: peer[1]:127.0.0.1:54872/9gdqr_c71UM0A3-OAAAA/server
+22:15:55 - silly: peer[2]:127.0.0.1:54882/ElD3K_fP7LGt7JRFAAAB/server
+22:15:55 - silly: peer[3]:127.0.0.1:54888/Ex7c-0kfn4aC2Q5yAAAC/server
+22:15:55 - silly: [PeerServer] New client connected !
+22:15:55 - silly: peer[n]:addr/id/myRole
+22:15:55 - silly: peer[0]:127.0.0.1:9000/IYnC1BZo_iwP406QAAAC/client
+22:15:55 - silly: peer[1]:127.0.0.1:9000/9gdqr_c71UM0A3-OAAAA/client
+22:15:55 - silly: peer[2]:127.0.0.1:9000/ElD3K_fP7LGt7JRFAAAB/client
+22:15:55 - silly: peer[3]:127.0.0.1:30790/DLrV5C2_v_NTYBMyAAAA/server
+22:15:55 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:15:55 - silly: peer[n]:addr/id/myRole
+22:15:55 - silly: peer[0]:127.0.0.1:9000/IYnC1BZo_iwP406QAAAC/client
+22:15:55 - silly: peer[1]:127.0.0.1:9000/9gdqr_c71UM0A3-OAAAA/client
+22:15:55 - silly: peer[2]:127.0.0.1:9000/ElD3K_fP7LGt7JRFAAAB/client
+22:15:55 - silly: peer[3]:127.0.0.1:30790/DLrV5C2_v_NTYBMyAAAA/server
+22:15:55 - silly: peer[4]:127.0.0.1:9000/Ex7c-0kfn4aC2Q5yAAAC/client
+22:15:55 - silly: [PING 1/3] : client2
+22:15:55 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:15:55 - silly: peer[n]:addr/id/myRole
+22:15:55 - silly: peer[0]:127.0.0.1:9000/IYnC1BZo_iwP406QAAAC/client
+22:15:55 - silly: peer[1]:127.0.0.1:9000/9gdqr_c71UM0A3-OAAAA/client
+22:15:55 - silly: peer[2]:127.0.0.1:9000/ElD3K_fP7LGt7JRFAAAB/client
+22:15:55 - silly: peer[3]:127.0.0.1:30790/DLrV5C2_v_NTYBMyAAAA/server
+22:15:55 - silly: peer[4]:127.0.0.1:9000/Ex7c-0kfn4aC2Q5yAAAC/client
+22:15:55 - silly: peer[5]:127.0.0.1:9000/DLrV5C2_v_NTYBMyAAAA/client
+22:15:55 - silly: [PING 1/3] : client2
+22:15:55 - silly: [PING] Reçu FROM undefined
+22:15:55 - silly: [PING] Reçu FROM undefined
+22:15:55 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:15:55 - silly: Road 0 :client
+22:15:55 - silly: [PING 2/3] : client2
+22:15:55 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:15:55 - silly: [PING 2/3] : client2
+22:15:55 - silly: [PING] Envoie à 127.0.0.1:54872...
+22:15:55 - silly: [PING 2/3] : client2
+22:15:55 - silly: [PING] Envoie à 127.0.0.1:54882...
+22:15:55 - silly: [PONG 2/3] : undefined
+22:15:55 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:15:55 - silly: Road 0 :client2
+22:15:55 - silly: [PING 2/3] : client2
+22:15:55 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:15:55 - silly: [PING 2/3] : client2
+22:15:55 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:15:55 - silly: [PING 2/3] : client2
+22:15:55 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:15:55 - silly: [PING 2/3] : client2
+22:15:55 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:15:55 - silly: [PONG 2/3] : undefined
+22:15:55 - silly: [PONG] Reçu FROM undefined
+22:15:55 - silly: [PONG] Reçu FROM undefined
+22:15:55 - silly: [PING] Reçu ! FROM undefined
+22:15:55 - silly: [PING 2/3] : client2
+22:15:55 - silly: [PING] Envoie pong
+22:15:55 - silly: [PONG 2/3] : dest final: 127.0.0.1:9002
+22:15:55 - silly: [PING] Reçu ! FROM undefined
+22:15:55 - silly: [PING 2/3] : client2
+22:15:55 - silly: [PING] Envoie pong
+22:15:55 - silly: [PONG 2/3] : dest final: 127.0.0.1:9002
+22:15:55 - silly: [PONG 2/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9002
+22:15:55 - silly: [PONG] Reçu avec le message : 127.0.0.1:9001
+22:15:55 - silly: [PONG] Ce pong m'est destiné !
+22:15:55 - silly: [PONG] Too Many Connection : 5
+22:15:55 - silly: [PONG 2/3] : REçU de 127.0.0.1:9002 dest : 127.0.0.1:9002
+22:15:55 - silly: [PONG] Reçu avec le message : 127.0.0.1:9002
+22:15:55 - silly: [PONG] Ce pong m'est destiné !
+22:15:55 - silly: [PONG] Too Many Connection : 5
+22:15:55 - silly: [PONG 1/3] : REçU de 127.0.0.1:9002 dest : 127.0.0.1:9002
+22:15:55 - silly: [PONG] Reçu avec le message : 127.0.0.1:9002
+22:15:55 - silly: [PONG] Ce pong m'est destiné !
+22:15:55 - silly: [PONG] Too Many Connection : 5
+22:15:55 - silly: [PONG 1/3] : REçU de 127.0.0.1:9002 dest : 127.0.0.1:9002
+22:15:55 - silly: [PONG] Reçu avec le message : 127.0.0.1:9002
+22:15:55 - silly: [PONG] Ce pong m'est destiné !
+22:15:55 - silly: [PONG] Too Many Connection : 5
+22:16:5 - silly: peer[n]:addr/id/myRole
+22:16:5 - silly: peer[n]:addr/id/myRole
+22:16:5 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:16:5 - silly: peer[1]:127.0.0.1:54872/9gdqr_c71UM0A3-OAAAA/server
+22:16:5 - silly: peer[2]:127.0.0.1:54882/ElD3K_fP7LGt7JRFAAAB/server
+22:16:5 - silly: [PeerServer] A client disconnects 
+22:16:5 - silly: peer[n]:addr/id/myRole
+22:16:5 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:16:5 - silly: peer[1]:127.0.0.1:54872/9gdqr_c71UM0A3-OAAAA/server
+22:16:5 - silly: [PeerServer] A client disconnects 
+22:16:5 - silly: peer[n]:addr/id/myRole
+22:16:5 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:16:5 - silly: [PeerServer] A client disconnects 
+22:16:5 - silly: peer[0]:127.0.0.1:16849/82Ia-tq9kjk73NYiAAAB/server
+22:16:5 - silly: [PeerServer] A client disconnects 
+22:16:6 - silly: [HTTP] Listening on port 9002
+22:16:6 - silly: [PeerManager] Hello : client2
+
+22:16:6 - silly: [PeerServer] New client connected !
+22:16:6 - silly: peer[n]:addr/id/myRole
+22:16:6 - silly: peer[0]:127.0.0.1:16849/82Ia-tq9kjk73NYiAAAB/server
+22:16:6 - silly: peer[1]:127.0.0.1:16913/5c6KRnClgRRnzmdgAAAD/server
+22:16:6 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:16:6 - silly: peer[n]:addr/id/myRole
+22:16:6 - silly: peer[0]:127.0.0.1:9000/5c6KRnClgRRnzmdgAAAD/client
+22:16:6 - silly: [PING 1/3] : client2
+22:16:6 - silly: [PING] Reçu FROM undefined
+22:16:6 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:16:6 - silly: Road 0 :serveur
+22:16:6 - silly: [PING 2/3] : client2
+22:16:6 - silly: [PING] Envoie à 127.0.0.1:16849...
+22:16:6 - silly: [PONG 2/3] : undefined
+22:16:6 - silly: [PING] Reçu ! FROM undefined
+22:16:6 - silly: [PING 2/3] : client2
+22:16:6 - silly: [PING] Envoie pong
+22:16:6 - silly: [PONG 2/3] : dest final: 127.0.0.1:9001
+22:16:6 - silly: [PONG] Reçu FROM undefined
+22:16:24 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9002
+22:17:31 - silly: peer[n]:addr/id/myRole
+22:17:31 - silly: peer[0]:127.0.0.1:16849/82Ia-tq9kjk73NYiAAAB/server
+22:17:31 - silly: [PeerServer] A client disconnects 
+22:16:24 - silly: [PONG] Reçu avec le message : 127.0.0.1:9000
+22:16:24 - silly: [PONG] Ce pong m'est destiné !
+22:16:24 - silly: [PONG] Déjà connecté à lui.
+22:17:38 - silly: [PONG 1/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9002
+22:17:38 - silly: [PONG] Reçu avec le message : 127.0.0.1:9001
+22:18:4 - silly: [PONG] Ce pong m'est destiné !
+22:19:4 - silly: peer[n]:addr/id/myRole
+22:19:4 - silly: [PeerClient] A server disconnects 
+22:19:4 - silly: [PeerServer] New client connected !
+22:19:4 - silly: peer[n]:addr/id/myRole
+22:19:4 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:19:4 - silly: peer[1]:127.0.0.1:54922/14GgSDuQ3l83aZEnAAAD/server
+22:19:4 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:19:4 - silly: peer[n]:addr/id/myRole
+22:19:4 - silly: peer[0]:127.0.0.1:9000/14GgSDuQ3l83aZEnAAAD/client
+22:19:4 - silly: [PING 1/3] : client2
+22:19:4 - silly: [PING] Reçu FROM undefined
+22:19:4 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:19:4 - silly: Road 0 :client
+22:19:4 - silly: [PING 2/3] : client2
+22:19:4 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:19:4 - silly: [PONG 2/3] : undefined
+22:19:58 - silly: [PONG 2/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9002
+22:20:29 - silly: peer[n]:addr/id/myRole
+22:20:29 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:20:29 - silly: [PeerServer] A client disconnects 
+22:19:58 - silly: [PONG] Reçu avec le message : 127.0.0.1:9001
+22:19:58 - silly: [PONG] Ce pong m'est destiné !
+22:20:34 - silly: peer[n]:addr/id/myRole
+22:20:34 - silly: peer[0]:127.0.0.1:9000/14GgSDuQ3l83aZEnAAAD/client
+22:20:34 - silly: [PeerClient] A server disconnects 
+22:20:34 - silly: [PeerServer] New client connected !
+22:20:34 - silly: peer[n]:addr/id/myRole
+22:20:34 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:20:34 - silly: peer[1]:127.0.0.1:54936/SsASw9PN0N4RmP-rAAAE/server
+22:20:34 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:20:34 - silly: peer[n]:addr/id/myRole
+22:20:34 - silly: peer[0]:127.0.0.1:9000/14GgSDuQ3l83aZEnAAAD/client
+22:20:34 - silly: peer[1]:127.0.0.1:9000/SsASw9PN0N4RmP-rAAAE/client
+22:20:34 - silly: [PING 1/3] : client2
+22:20:34 - silly: [PING] Reçu FROM undefined
+22:20:34 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:20:34 - silly: Road 0 :client
+22:20:34 - silly: [PING 2/3] : client2
+22:20:34 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:20:34 - silly: [PONG 2/3] : undefined
+22:20:34 - silly: [PeerServer] New client connected !
+22:20:34 - silly: peer[n]:addr/id/myRole
+22:20:34 - silly: peer[0]:127.0.0.1:16849/82Ia-tq9kjk73NYiAAAB/server
+22:20:34 - silly: peer[1]:127.0.0.1:16937/wFl5DSMGdrK4lNS-AAAE/server
+22:20:36 - silly: [PONG 2/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9002
+22:20:36 - silly: [PONG] Reçu avec le message : 127.0.0.1:9001
+22:20:36 - silly: [PONG] Ce pong m'est destiné !
+22:20:43 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:20:43 - silly: peer[n]:addr/id/myRole
+22:20:43 - silly: peer[0]:127.0.0.1:9000/14GgSDuQ3l83aZEnAAAD/client
+22:20:43 - silly: peer[1]:127.0.0.1:9000/SsASw9PN0N4RmP-rAAAE/client
+22:20:43 - silly: peer[2]:127.0.0.1:9000/wFl5DSMGdrK4lNS-AAAE/client
+22:20:43 - silly: [PING 1/3] : client2
+22:20:43 - silly: [PeerServer] New client connected !
+22:20:43 - silly: peer[n]:addr/id/myRole
+22:20:43 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:20:43 - silly: peer[1]:127.0.0.1:54936/SsASw9PN0N4RmP-rAAAE/server
+22:20:43 - silly: peer[2]:127.0.0.1:54952/2Os4bRmPH5714kaAAAAF/server
+22:20:43 - silly: [PeerServer] New client connected !
+22:20:43 - silly: peer[n]:addr/id/myRole
+22:20:43 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:20:43 - silly: peer[1]:127.0.0.1:54936/SsASw9PN0N4RmP-rAAAE/server
+22:20:43 - silly: peer[2]:127.0.0.1:54952/2Os4bRmPH5714kaAAAAF/server
+22:20:43 - silly: peer[3]:127.0.0.1:54954/wNFKOArXviQzqWKBAAAG/server
+22:20:43 - silly: [PING] Reçu FROM undefined
+22:20:43 - silly: [PING] Reçu ! FROM undefined
+22:20:43 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:20:43 - silly: Road 0 :serveur
+22:20:43 - silly: [PING 2/3] : client2
+22:20:43 - silly: [PING] Envoie à 127.0.0.1:16849...
+22:20:43 - silly: [PONG 2/3] : undefined
+22:20:43 - silly: [PONG] Reçu FROM undefined
+22:20:43 - silly: [PING 2/3] : client2
+22:20:43 - silly: [PING] Envoie pong
+22:20:43 - silly: [PONG 2/3] : dest final: 127.0.0.1:9001
+22:21:3 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9002
+22:21:3 - silly: [PONG] Reçu avec le message : 127.0.0.1:9000
+22:21:3 - silly: [PONG] Ce pong m'est destiné !
+22:21:22 - silly: [PONG] Déjà connecté à lui.
+22:21:22 - silly: peer[n]:addr/id/myRole
+22:21:22 - silly: [PeerClient] A server disconnects 
+22:21:22 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:21:22 - silly: peer[n]:addr/id/myRole
+22:21:22 - silly: peer[0]:127.0.0.1:9000/2Os4bRmPH5714kaAAAAF/client
+22:21:22 - silly: [PING 1/3] : client2
+22:21:22 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:21:22 - silly: peer[n]:addr/id/myRole
+22:21:22 - silly: peer[0]:127.0.0.1:9000/2Os4bRmPH5714kaAAAAF/client
+22:21:22 - silly: peer[1]:127.0.0.1:9000/wNFKOArXviQzqWKBAAAG/client
+22:21:22 - silly: [PING 1/3] : client2
+22:21:22 - silly: [PING] Reçu FROM undefined
+22:21:22 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:21:22 - silly: Road 0 :client
+22:21:22 - silly: [PING 2/3] : client2
+22:21:22 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:21:22 - silly: [PING 2/3] : client2
+22:21:22 - silly: [PING] Envoie à 127.0.0.1:54936...
+22:21:22 - silly: [PING 2/3] : client2
+22:21:22 - silly: [PING] Envoie à 127.0.0.1:54954...
+22:21:22 - silly: [PONG 2/3] : undefined
+22:21:22 - silly: [PING] Reçu ! FROM undefined
+22:21:22 - silly: [PING 2/3] : client2
+22:21:22 - silly: [PING] Envoie pong
+22:21:22 - silly: [PONG 2/3] : dest final: 127.0.0.1:9002
+22:21:22 - silly: [PING] Reçu ! FROM undefined
+22:21:22 - silly: [PING] Reçu FROM undefined
+22:21:22 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:21:22 - silly: Road 0 :client
+22:21:22 - silly: [PING 2/3] : client2
+22:21:22 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:21:22 - silly: [PING 2/3] : client2
+22:21:22 - silly: [PING] Envoie à 127.0.0.1:54936...
+22:21:22 - silly: [PING 2/3] : client2
+22:21:22 - silly: [PING] Envoie à 127.0.0.1:54952...
+22:21:22 - silly: [PONG 2/3] : undefined
+22:21:22 - silly: [PING 2/3] : client2
+22:21:22 - silly: [PING] Envoie pong
+22:21:22 - silly: [PONG 2/3] : dest final: 127.0.0.1:9002
+22:21:22 - silly: [PONG] Reçu FROM undefined
+22:21:22 - silly: [PONG] Reçu FROM undefined
+22:22:8 - silly: peer[n]:addr/id/myRole
+22:22:8 - silly: peer[0]:127.0.0.1:16849/82Ia-tq9kjk73NYiAAAB/server
+22:22:8 - silly: [PeerServer] A client disconnects 
+22:22:47 - silly: peer[n]:addr/id/myRole
+22:22:47 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:22:47 - silly: peer[1]:127.0.0.1:54936/SsASw9PN0N4RmP-rAAAE/server
+22:22:47 - silly: peer[2]:127.0.0.1:54954/wNFKOArXviQzqWKBAAAG/server
+22:22:47 - silly: [PeerServer] A client disconnects 
+22:22:47 - silly: peer[n]:addr/id/myRole
+22:22:47 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:22:47 - silly: peer[1]:127.0.0.1:54936/SsASw9PN0N4RmP-rAAAE/server
+22:22:47 - silly: [PeerServer] A client disconnects 
+22:22:47 - silly: peer[n]:addr/id/myRole
+22:22:47 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:22:47 - silly: [PeerServer] A client disconnects 
+22:24:13 - silly: [HTTP] Listening on port 9002
+22:24:13 - silly: [PeerManager] Hello : client2
+
+22:24:13 - silly: [PeerServer] New client connected !
+22:24:13 - silly: peer[n]:addr/id/myRole
+22:24:13 - silly: peer[0]:127.0.0.1:16849/82Ia-tq9kjk73NYiAAAB/server
+22:24:13 - silly: peer[1]:127.0.0.1:17003/N8sJnblaWrP2lLphAAAF/server
+22:24:13 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:24:13 - silly: peer[n]:addr/id/myRole
+22:24:13 - silly: peer[0]:127.0.0.1:9000/N8sJnblaWrP2lLphAAAF/client
+22:24:13 - silly: [PING 1/3] : client2
+22:24:13 - silly: [PING] Reçu FROM undefined
+22:24:13 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:24:13 - silly: Road 0 :serveur
+22:24:13 - silly: [PING 2/3] : client2
+22:24:13 - silly: [PING] Envoie à 127.0.0.1:16849...
+22:24:13 - silly: [PONG 2/3] : undefined
+22:24:13 - silly: [PING] Reçu ! FROM undefined
+22:24:13 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9002
+22:24:13 - silly: [PING 2/3] : client2
+22:24:13 - silly: [PING] Envoie pong
+22:24:13 - silly: [PONG 2/3] : dest final: 127.0.0.1:9001
+22:24:13 - silly: [PONG] Reçu avec le message : 127.0.0.1:9000
+22:24:13 - silly: [PONG] Ce pong m'est destiné !
+22:24:13 - silly: [PONG] Déjà connecté à lui.
+22:24:13 - silly: [PONG] Reçu FROM undefined
+22:24:13 - silly: [PONG 1/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9002
+22:24:13 - silly: [PONG] Reçu avec le message : 127.0.0.1:9001
+22:24:13 - silly: [PONG] Ce pong m'est destiné !
+22:24:13 - silly: [PeerServer] New client connected !
+22:24:13 - silly: peer[n]:addr/id/myRole
+22:24:13 - silly: peer[0]:127.0.0.1:9000/82Ia-tq9kjk73NYiAAAB/client
+22:24:13 - silly: peer[1]:127.0.0.1:55014/je5lw149TIBagIcYAAAH/server
+22:24:13 - silly: [PeerClient] Connection to 127.0.0.1:9001 ... OK !
+22:24:13 - silly: peer[n]:addr/id/myRole
+22:24:13 - silly: peer[0]:127.0.0.1:9000/N8sJnblaWrP2lLphAAAF/client
+22:24:13 - silly: peer[1]:127.0.0.1:9001/je5lw149TIBagIcYAAAH/client
+22:24:13 - silly: [PING 1/3] : client2
+22:24:13 - silly: [PING] Reçu FROM undefined
+22:24:13 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:24:13 - silly: Road 0 :client
+22:24:13 - silly: [PING 2/3] : client2
+22:24:13 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:24:13 - silly: [PONG 2/3] : undefined
+22:24:13 - silly: [PONG 2/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9002
+22:24:13 - silly: [PONG] Reçu avec le message : 127.0.0.1:9001
+22:24:13 - silly: [PONG] Ce pong m'est destiné !
+22:24:13 - silly: [PONG] Déjà connecté à lui.
+22:26:24 - silly: peer[n]:addr/id/myRole
+22:26:24 - silly: peer[0]:127.0.0.1:17003/N8sJnblaWrP2lLphAAAF/server
+22:26:24 - silly: [PeerServer] A client disconnects 
+22:26:24 - silly: peer[n]:addr/id/myRole
+22:26:24 - silly: peer[0]:127.0.0.1:9000/N8sJnblaWrP2lLphAAAF/client
+22:26:24 - silly: [PeerClient] A server disconnects 
+22:26:25 - silly: peer[n]:addr/id/myRole
+22:26:25 - silly: [PeerServer] A client disconnects 
+22:26:44 - silly: [HTTP] Listening on port 9000
+22:26:44 - silly: [PeerManager] Hello : serveur
+
+22:26:48 - silly: [HTTP] Listening on port 9001
+22:26:48 - silly: [PeerManager] Hello : client
+
+22:26:48 - silly: [PeerServer] New client connected !
+22:26:48 - silly: peer[n]:addr/id/myRole
+22:26:48 - silly: peer[0]:127.0.0.1:17041/03MmYNR0z_2mLgTfAAAA/server
+22:26:48 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:26:48 - silly: peer[n]:addr/id/myRole
+22:26:48 - silly: peer[0]:127.0.0.1:9000/03MmYNR0z_2mLgTfAAAA/client
+22:26:48 - silly: [PING 1/3] : client
+22:26:48 - silly: [PING] Reçu FROM undefined
+22:26:48 - silly: [Ping] TTL:2/3. From:127.0.0.1:9001 to:
+22:26:48 - silly: Road 0 :serveur
+22:26:48 - silly: [PONG 2/3] : undefined
+22:26:48 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9001
+22:26:48 - silly: [PONG] Reçu avec le message : 127.0.0.1:9000
+22:26:48 - silly: [PONG] Ce pong m'est destiné !
+22:26:48 - silly: [PONG] Déjà connecté à lui.
+22:26:51 - silly: [HTTP] Listening on port 9002
+22:26:51 - silly: [PeerManager] Hello : client2
+
+22:26:51 - silly: [PeerServer] New client connected !
+22:26:51 - silly: peer[n]:addr/id/myRole
+22:26:51 - silly: peer[0]:127.0.0.1:17041/03MmYNR0z_2mLgTfAAAA/server
+22:26:51 - silly: peer[1]:127.0.0.1:17057/D6JWC_LAd8n4_lp9AAAB/server
+22:26:51 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+22:26:51 - silly: peer[n]:addr/id/myRole
+22:26:51 - silly: peer[0]:127.0.0.1:9000/D6JWC_LAd8n4_lp9AAAB/client
+22:26:51 - silly: [PING 1/3] : client2
+22:26:51 - silly: [PING] Reçu FROM undefined
+22:26:51 - silly: [PING] Reçu ! FROM undefined
+22:26:51 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:26:51 - silly: Road 0 :serveur
+22:26:51 - silly: [PING 2/3] : client2
+22:26:51 - silly: [PING] Envoie à 127.0.0.1:17041...
+22:26:51 - silly: [PONG 2/3] : undefined
+22:26:51 - silly: [PING 2/3] : client2
+22:26:51 - silly: [PING] Envoie pong
+22:26:51 - silly: [PONG 2/3] : dest final: 127.0.0.1:9001
+22:26:51 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9002
+22:26:51 - silly: [PONG] Reçu FROM undefined
+22:26:51 - silly: [PONG] Reçu avec le message : 127.0.0.1:9000
+22:26:51 - silly: [PONG] Ce pong m'est destiné !
+22:26:51 - silly: [PONG] Déjà connecté à lui.
+22:26:51 - silly: [PONG 1/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9002
+22:26:51 - silly: [PONG] Reçu avec le message : 127.0.0.1:9001
+22:26:51 - silly: [PONG] Ce pong m'est destiné !
+22:26:51 - silly: [PeerServer] New client connected !
+22:26:51 - silly: peer[n]:addr/id/myRole
+22:26:51 - silly: peer[0]:127.0.0.1:9000/03MmYNR0z_2mLgTfAAAA/client
+22:26:51 - silly: peer[1]:127.0.0.1:55068/vyqV5MsizuC6v4IpAAAA/server
+22:26:51 - silly: [PeerClient] Connection to 127.0.0.1:9001 ... OK !
+22:26:51 - silly: peer[n]:addr/id/myRole
+22:26:51 - silly: peer[0]:127.0.0.1:9000/D6JWC_LAd8n4_lp9AAAB/client
+22:26:51 - silly: peer[1]:127.0.0.1:9001/vyqV5MsizuC6v4IpAAAA/client
+22:26:51 - silly: [PING 1/3] : client2
+22:26:51 - silly: [PING] Reçu FROM undefined
+22:26:51 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+22:26:51 - silly: Road 0 :client
+22:26:51 - silly: [PING 2/3] : client2
+22:26:51 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:26:51 - silly: [PONG 2/3] : undefined
+22:26:51 - silly: [PONG 2/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9002
+22:26:51 - silly: [PONG] Reçu avec le message : 127.0.0.1:9001
+22:26:51 - silly: [PONG] Ce pong m'est destiné !
+22:26:51 - silly: [PONG] Déjà connecté à lui.
+22:27:5 - silly: [HTTP] Listening on port 9003
+22:27:5 - silly: [PeerManager] Hello : client3
+
+22:27:5 - silly: [PeerServer] New client connected !
+22:27:5 - silly: peer[n]:addr/id/myRole
+22:27:5 - silly: peer[0]:127.0.0.1:9000/03MmYNR0z_2mLgTfAAAA/client
+22:27:5 - silly: peer[1]:127.0.0.1:55068/vyqV5MsizuC6v4IpAAAA/server
+22:27:5 - silly: peer[2]:127.0.0.1:55084/dAj3_J7cTx4LuUrTAAAB/server
+22:27:5 - silly: [PeerClient] Connection to 127.0.0.1:9001 ... OK !
+22:27:5 - silly: peer[n]:addr/id/myRole
+22:27:5 - silly: peer[0]:127.0.0.1:9001/dAj3_J7cTx4LuUrTAAAB/client
+22:27:5 - silly: [PING 1/3] : client3
+22:27:5 - silly: [PING] Reçu FROM undefined
+22:27:5 - silly: [Ping] TTL:2/3. From:127.0.0.1:9003 to:
+22:27:5 - silly: Road 0 :client
+22:27:5 - silly: [PING 2/3] : client3
+22:27:5 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:27:5 - silly: [PING 2/3] : client3
+22:27:5 - silly: [PING] Envoie à 127.0.0.1:55068...
+22:27:5 - silly: [PONG 2/3] : undefined
+22:27:5 - silly: [PING] Reçu ! FROM undefined
+22:27:5 - silly: [PING 2/3] : client3
+22:27:5 - silly: [PING] Envoie pong
+22:27:5 - silly: [PONG 2/3] : dest final: 127.0.0.1:9002
+22:27:5 - silly: [PONG 2/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9003
+22:27:5 - silly: [PONG] Reçu FROM undefined
+22:27:5 - silly: [PONG] Reçu avec le message : 127.0.0.1:9001
+22:27:5 - silly: [PONG] Ce pong m'est destiné !
+22:27:5 - silly: [PONG] Déjà connecté à lui.
+22:27:5 - silly: [PONG 1/3] : REçU de 127.0.0.1:9002 dest : 127.0.0.1:9003
+22:27:5 - silly: [PONG] Reçu avec le message : 127.0.0.1:9002
+22:27:5 - silly: [PONG] Ce pong m'est destiné !
+22:27:5 - silly: [PeerServer] New client connected !
+22:27:5 - silly: peer[n]:addr/id/myRole
+22:27:5 - silly: peer[0]:127.0.0.1:9000/D6JWC_LAd8n4_lp9AAAB/client
+22:27:5 - silly: peer[1]:127.0.0.1:9001/vyqV5MsizuC6v4IpAAAA/client
+22:27:5 - silly: peer[2]:127.0.0.1:30990/w_xEUv8sNFXwHBw1AAAA/server
+22:27:5 - silly: [PeerClient] Connection to 127.0.0.1:9002 ... OK !
+22:27:5 - silly: peer[n]:addr/id/myRole
+22:27:5 - silly: peer[0]:127.0.0.1:9001/dAj3_J7cTx4LuUrTAAAB/client
+22:27:5 - silly: peer[1]:127.0.0.1:9002/w_xEUv8sNFXwHBw1AAAA/client
+22:27:5 - silly: [PING 1/3] : client3
+22:27:5 - silly: [PING] Reçu FROM undefined
+22:27:5 - silly: [Ping] TTL:2/3. From:127.0.0.1:9003 to:
+22:27:5 - silly: Road 0 :client2
+22:27:5 - silly: [PING 2/3] : client3
+22:27:5 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:27:5 - silly: [PING 2/3] : client3
+22:27:5 - silly: [PING] Envoie à 127.0.0.1:9001...
+22:27:5 - silly: [PONG 2/3] : undefined
+22:27:5 - silly: [PONG 2/3] : REçU de 127.0.0.1:9002 dest : 127.0.0.1:9003
+22:27:5 - silly: [PONG] Reçu avec le message : 127.0.0.1:9002
+22:27:5 - silly: [PONG] Ce pong m'est destiné !
+22:27:5 - silly: [PONG] Déjà connecté à lui.
+22:27:22 - silly: [HTTP] Listening on port 9004
+22:27:22 - silly: [PeerManager] Hello : client4
+
+22:27:22 - silly: [PeerServer] New client connected !
+22:27:22 - silly: peer[n]:addr/id/myRole
+22:27:22 - silly: peer[0]:127.0.0.1:9000/D6JWC_LAd8n4_lp9AAAB/client
+22:27:22 - silly: peer[1]:127.0.0.1:9001/vyqV5MsizuC6v4IpAAAA/client
+22:27:22 - silly: peer[2]:127.0.0.1:30990/w_xEUv8sNFXwHBw1AAAA/server
+22:27:22 - silly: peer[3]:127.0.0.1:31010/EWsvWHqWnMt6YCsAAAAB/server
+22:27:22 - silly: [PeerClient] Connection to 127.0.0.1:9002 ... OK !
+22:27:22 - silly: peer[n]:addr/id/myRole
+22:27:22 - silly: peer[0]:127.0.0.1:9002/EWsvWHqWnMt6YCsAAAAB/client
+22:27:22 - silly: [PING 1/3] : client4
+22:27:22 - silly: [PING] Reçu FROM undefined
+22:27:22 - silly: [PING] Reçu ! FROM undefined
+22:27:22 - silly: [Ping] TTL:2/3. From:127.0.0.1:9004 to:
+22:27:22 - silly: Road 0 :client2
+22:27:22 - silly: [PING 2/3] : client4
+22:27:22 - silly: [PING] Envoie à 127.0.0.1:9000...
+22:27:22 - silly: [PING 2/3] : client4
+22:27:22 - silly: [PING] Envoie à 127.0.0.1:9001...
+22:27:22 - silly: [PING 2/3] : client4
+22:27:22 - silly: [PING] Envoie à 127.0.0.1:30990...
+22:27:22 - silly: [PONG 2/3] : undefined
+22:27:22 - silly: [PING 2/3] : client4
+22:27:22 - silly: [PING] Envoie pong
+22:27:22 - silly: [PONG 2/3] : dest final: 127.0.0.1:9003
+22:27:22 - silly: [PONG] Reçu FROM undefined
+22:27:22 - silly: [PONG 2/3] : REçU de 127.0.0.1:9002 dest : 127.0.0.1:9004
+22:27:22 - silly: [PONG] Reçu avec le message : 127.0.0.1:9002
+22:27:22 - silly: [PONG] Ce pong m'est destiné !
+22:27:22 - silly: [PONG] Déjà connecté à lui.
+22:27:22 - silly: [PONG 1/3] : REçU de 127.0.0.1:9003 dest : 127.0.0.1:9004
+22:27:22 - silly: [PONG] Reçu avec le message : 127.0.0.1:9003
+22:27:22 - silly: [PONG] Ce pong m'est destiné !
+22:27:23 - silly: [PeerServer] New client connected !
+22:27:23 - silly: peer[n]:addr/id/myRole
+22:27:23 - silly: peer[0]:127.0.0.1:9001/dAj3_J7cTx4LuUrTAAAB/client
+22:27:23 - silly: peer[1]:127.0.0.1:9002/w_xEUv8sNFXwHBw1AAAA/client
+22:27:23 - silly: peer[2]:127.0.0.1:55816/cito7OweiDiHy20NAAAA/server
+22:27:23 - silly: [PeerClient] Connection to 127.0.0.1:9003 ... OK !
+22:27:23 - silly: peer[n]:addr/id/myRole
+22:27:23 - silly: peer[0]:127.0.0.1:9002/EWsvWHqWnMt6YCsAAAAB/client
+22:27:23 - silly: peer[1]:127.0.0.1:9003/cito7OweiDiHy20NAAAA/client
+22:27:23 - silly: [PING 1/3] : client4
+22:27:23 - silly: [PING] Reçu FROM undefined
+22:27:23 - silly: [Ping] TTL:2/3. From:127.0.0.1:9004 to:
+22:27:23 - silly: Road 0 :client3
+22:27:23 - silly: [PING 2/3] : client4
+22:27:23 - silly: [PING] Envoie à 127.0.0.1:9001...
+22:27:23 - silly: [PING 2/3] : client4
+22:27:23 - silly: [PING] Envoie à 127.0.0.1:9002...
+22:27:23 - silly: [PONG 2/3] : undefined
+22:27:23 - silly: [PONG 2/3] : REçU de 127.0.0.1:9003 dest : 127.0.0.1:9004
+22:27:23 - silly: [PONG] Reçu avec le message : 127.0.0.1:9003
+22:27:23 - silly: [PONG] Ce pong m'est destiné !
+22:27:23 - silly: [PONG] Déjà connecté à lui.
+23:18:1 - silly: peer[n]:addr/id/myRole
+23:18:1 - silly: peer[n]:addr/id/myRole
+23:18:1 - silly: peer[0]:127.0.0.1:55068/vyqV5MsizuC6v4IpAAAA/server
+23:18:1 - silly: peer[1]:127.0.0.1:55084/dAj3_J7cTx4LuUrTAAAB/server
+23:18:1 - silly: [PeerClient] A server disconnects 
+23:18:1 - silly: peer[0]:127.0.0.1:9001/vyqV5MsizuC6v4IpAAAA/client
+23:18:1 - silly: peer[1]:127.0.0.1:30990/w_xEUv8sNFXwHBw1AAAA/server
+23:18:1 - silly: peer[2]:127.0.0.1:31010/EWsvWHqWnMt6YCsAAAAB/server
+23:18:1 - silly: [PeerClient] A server disconnects 
+23:18:2 - silly: [HTTP] Listening on port 9000
+23:18:2 - silly: [PeerManager] Hello : serveur
+
+23:18:3 - silly: [PeerServer] New client connected !
+23:18:3 - silly: peer[n]:addr/id/myRole
+23:18:3 - silly: peer[0]:127.0.0.1:17945/E2L7frmIVKoT9QXhAAAA/server
+23:18:3 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+23:18:3 - silly: peer[n]:addr/id/myRole
+23:18:3 - silly: peer[0]:127.0.0.1:55068/vyqV5MsizuC6v4IpAAAA/server
+23:18:3 - silly: peer[1]:127.0.0.1:55084/dAj3_J7cTx4LuUrTAAAB/server
+23:18:3 - silly: peer[2]:127.0.0.1:9000/E2L7frmIVKoT9QXhAAAA/client
+23:18:3 - silly: [PING 1/3] : client
+23:18:3 - silly: [PING] Reçu FROM undefined
+23:18:3 - silly: [Ping] TTL:2/3. From:127.0.0.1:9001 to:
+23:18:3 - silly: Road 0 :serveur
+23:18:3 - silly: [PONG 2/3] : undefined
+23:18:3 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9001
+23:18:3 - silly: [PONG] Reçu avec le message : 127.0.0.1:9000
+23:18:3 - silly: [PONG] Ce pong m'est destiné !
+23:18:3 - silly: [PONG] Déjà connecté à lui.
+23:18:4 - silly: [PeerServer] New client connected !
+23:18:4 - silly: peer[n]:addr/id/myRole
+23:18:4 - silly: peer[0]:127.0.0.1:17945/E2L7frmIVKoT9QXhAAAA/server
+23:18:4 - silly: peer[1]:127.0.0.1:17955/eb3w_csIUxeLVBh4AAAB/server
+23:18:4 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+23:18:4 - silly: peer[n]:addr/id/myRole
+23:18:4 - silly: peer[0]:127.0.0.1:9001/vyqV5MsizuC6v4IpAAAA/client
+23:18:4 - silly: peer[1]:127.0.0.1:30990/w_xEUv8sNFXwHBw1AAAA/server
+23:18:4 - silly: peer[2]:127.0.0.1:31010/EWsvWHqWnMt6YCsAAAAB/server
+23:18:4 - silly: peer[3]:127.0.0.1:9000/eb3w_csIUxeLVBh4AAAB/client
+23:18:4 - silly: [PING 1/3] : client2
+23:18:4 - silly: [PING] Reçu FROM undefined
+23:18:4 - silly: [PING] Reçu ! FROM undefined
+23:18:4 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+23:18:4 - silly: Road 0 :serveur
+23:18:4 - silly: [PING 2/3] : client2
+23:18:4 - silly: [PING] Envoie à 127.0.0.1:17945...
+23:18:4 - silly: [PONG 2/3] : undefined
+23:18:4 - silly: [PING 2/3] : client2
+23:18:4 - silly: [PING] Envoie pong
+23:18:4 - silly: [PONG 2/3] : dest final: 127.0.0.1:9001
+23:18:4 - silly: [PONG] Reçu FROM undefined
+23:18:4 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9002
+23:18:4 - silly: [PONG] Reçu avec le message : 127.0.0.1:9000
+23:18:4 - silly: [PONG] Ce pong m'est destiné !
+23:18:4 - silly: [PONG] Déjà connecté à lui.
+23:18:4 - silly: [PONG 1/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9002
+23:18:4 - silly: [PONG] Reçu avec le message : 127.0.0.1:9001
+23:18:4 - silly: [PONG] Ce pong m'est destiné !
+23:18:4 - silly: [PONG] Déjà connecté à lui.
+23:18:15 - silly: peer[n]:addr/id/myRole
+23:18:15 - silly: peer[n]:addr/id/myRole
+23:18:15 - silly: peer[0]:127.0.0.1:30990/w_xEUv8sNFXwHBw1AAAA/server
+23:18:15 - silly: peer[1]:127.0.0.1:31010/EWsvWHqWnMt6YCsAAAAB/server
+23:18:15 - silly: peer[2]:127.0.0.1:9000/eb3w_csIUxeLVBh4AAAB/client
+23:18:15 - silly: [PeerClient] A server disconnects 
+23:18:15 - silly: peer[0]:127.0.0.1:17955/eb3w_csIUxeLVBh4AAAB/server
+23:18:15 - silly: [PeerServer] A client disconnects 
+23:18:15 - silly: peer[n]:addr/id/myRole
+23:18:15 - silly: peer[0]:127.0.0.1:9002/w_xEUv8sNFXwHBw1AAAA/client
+23:18:15 - silly: peer[1]:127.0.0.1:55816/cito7OweiDiHy20NAAAA/server
+23:18:15 - silly: [PeerClient] A server disconnects 
+23:18:16 - silly: [HTTP] Listening on port 9001
+23:18:16 - silly: [PeerServer] New client connected !
+23:18:16 - silly: peer[n]:addr/id/myRole
+23:18:16 - silly: peer[0]:127.0.0.1:17955/eb3w_csIUxeLVBh4AAAB/server
+23:18:16 - silly: peer[1]:127.0.0.1:17971/DGh-5RNY6LroC-1fAAAC/server
+23:18:16 - silly: [PeerManager] Hello : client
+
+23:18:16 - silly: [PeerServer] New client connected !
+23:18:16 - silly: [PeerClient] Connection to 127.0.0.1:9001 ... OK !
+23:18:16 - silly: peer[n]:addr/id/myRole
+23:18:16 - silly: peer[0]:127.0.0.1:55970/vgwd6fqwK80Ztq8QAAAA/server
+23:18:16 - silly: peer[n]:addr/id/myRole
+23:18:16 - silly: peer[0]:127.0.0.1:30990/w_xEUv8sNFXwHBw1AAAA/server
+23:18:16 - silly: peer[1]:127.0.0.1:31010/EWsvWHqWnMt6YCsAAAAB/server
+23:18:16 - silly: peer[2]:127.0.0.1:9000/eb3w_csIUxeLVBh4AAAB/client
+23:18:16 - silly: peer[3]:127.0.0.1:9001/vgwd6fqwK80Ztq8QAAAA/client
+23:18:16 - silly: [PING 1/3] : client2
+23:18:16 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+23:18:16 - silly: peer[n]:addr/id/myRole
+23:18:16 - silly: peer[0]:127.0.0.1:55970/vgwd6fqwK80Ztq8QAAAA/server
+23:18:16 - silly: peer[1]:127.0.0.1:9000/DGh-5RNY6LroC-1fAAAC/client
+23:18:16 - silly: [PING 1/3] : client
+23:18:16 - silly: [PING] Reçu FROM undefined
+23:18:16 - silly: [PING] Reçu FROM undefined
+23:18:16 - silly: [Ping] TTL:2/3. From:127.0.0.1:9001 to:
+23:18:16 - silly: Road 0 :serveur
+23:18:16 - silly: [PING 2/3] : client
+23:18:16 - silly: [PING] Envoie à 127.0.0.1:17955...
+23:18:16 - silly: [PONG 2/3] : undefined
+23:18:16 - silly: [PING] Reçu ! FROM undefined
+23:18:16 - silly: [PING 2/3] : client
+23:18:16 - silly: [PING] Envoie pong
+23:18:16 - silly: [PONG 2/3] : dest final: 127.0.0.1:9002
+23:18:16 - silly: [PONG 2/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9002
+23:18:16 - silly: [PONG] Reçu avec le message : 127.0.0.1:9001
+23:18:16 - silly: [PONG] Ce pong m'est destiné !
+23:18:16 - silly: [PONG] Déjà connecté à lui.
+23:18:16 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+23:18:16 - silly: Road 0 :client
+23:18:16 - silly: [PING 2/3] : client2
+23:18:16 - silly: [PING] Envoie à 127.0.0.1:9000...
+23:18:16 - silly: [PONG 2/3] : undefined
+23:18:16 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9001 message:127.0.0.1:9000
+23:18:16 - silly: [PONG] Ce pong m'est destiné !
+23:18:16 - silly: [PONG] Déjà connecté à lui.
+23:18:16 - silly: [PONG] Reçu FROM undefined
+23:18:16 - silly: [PONG 1/3] : REçU de 127.0.0.1:9002 dest : 127.0.0.1:9001 message:127.0.0.1:9002
+23:18:16 - silly: [PONG] Ce pong m'est destiné !
+23:18:16 - silly: [PeerServer] New client connected !
+23:18:16 - silly: peer[n]:addr/id/myRole
+23:18:16 - silly: peer[0]:127.0.0.1:30990/w_xEUv8sNFXwHBw1AAAA/server
+23:18:16 - silly: peer[1]:127.0.0.1:31010/EWsvWHqWnMt6YCsAAAAB/server
+23:18:16 - silly: peer[2]:127.0.0.1:9000/eb3w_csIUxeLVBh4AAAB/client
+23:18:16 - silly: peer[3]:127.0.0.1:9001/vgwd6fqwK80Ztq8QAAAA/client
+23:18:16 - silly: peer[4]:127.0.0.1:31890/TjwOyZHnhtc3asGcAAAC/server
+23:18:16 - silly: [PeerClient] Connection to 127.0.0.1:9002 ... OK !
+23:18:16 - silly: peer[n]:addr/id/myRole
+23:18:16 - silly: peer[0]:127.0.0.1:55970/vgwd6fqwK80Ztq8QAAAA/server
+23:18:16 - silly: peer[1]:127.0.0.1:9000/DGh-5RNY6LroC-1fAAAC/client
+23:18:16 - silly: peer[2]:127.0.0.1:9002/TjwOyZHnhtc3asGcAAAC/client
+23:18:16 - silly: [PING 1/3] : client
+23:18:16 - silly: [PING] Reçu FROM undefined
+23:18:16 - silly: [PING] Reçu ! FROM undefined
+23:18:16 - silly: [PONG 2/3] : REçU de 127.0.0.1:9002 dest : 127.0.0.1:9001 message:127.0.0.1:9002
+23:18:16 - silly: [PONG] Ce pong m'est destiné !
+23:18:16 - silly: [PONG] Déjà connecté à lui.
+23:18:16 - silly: [Ping] TTL:2/3. From:127.0.0.1:9001 to:
+23:18:16 - silly: Road 0 :client2
+23:18:16 - silly: [PING 2/3] : client
+23:18:16 - silly: [PING] Envoie à 127.0.0.1:30990...
+23:18:16 - silly: [PING 2/3] : client
+23:18:16 - silly: [PING] Envoie à 127.0.0.1:31010...
+23:18:16 - silly: [PING 2/3] : client
+23:18:16 - silly: [PING] Envoie à 127.0.0.1:9000...
+23:18:16 - silly: [PING 2/3] : client
+23:18:16 - silly: [PING] Envoie à 127.0.0.1:9001...
+23:18:16 - silly: [PONG 2/3] : undefined
+23:18:16 - silly: [PING 2/3] : client
+23:18:16 - silly: [PING] Envoie pong
+23:18:16 - silly: [PONG 2/3] : dest final: 127.0.0.1:9003
+23:18:16 - silly: [PING] Reçu ! FROM undefined
+23:18:16 - silly: [PONG] Reçu FROM undefined
+23:18:16 - silly: [PONG 1/3] : REçU de 127.0.0.1:9003 dest : 127.0.0.1:9001 message:127.0.0.1:9003
+23:18:16 - silly: [PONG] Ce pong m'est destiné !
+23:18:16 - silly: [PONG] Reçu FROM undefined
+23:18:16 - silly: [PING 2/3] : client
+23:18:16 - silly: [PING] Envoie pong
+23:18:16 - silly: [PONG 2/3] : dest final: 127.0.0.1:9004
+23:18:16 - silly: [PONG 1/3] : REçU de 127.0.0.1:9004 dest : 127.0.0.1:9001 message:127.0.0.1:9004
+23:18:16 - silly: [PONG] Ce pong m'est destiné !
+23:18:16 - silly: [PeerServer] New client connected !
+23:18:16 - silly: peer[n]:addr/id/myRole
+23:18:16 - silly: peer[0]:127.0.0.1:9002/w_xEUv8sNFXwHBw1AAAA/client
+23:18:16 - silly: peer[1]:127.0.0.1:55816/cito7OweiDiHy20NAAAA/server
+23:18:16 - silly: peer[2]:127.0.0.1:56696/ygTkRDU4ha43CX7zAAAB/server
+23:18:16 - silly: [PeerServer] New client connected !
+23:18:16 - silly: [PeerClient] Connection to 127.0.0.1:9003 ... OK !
+23:18:16 - silly: peer[n]:addr/id/myRole
+23:18:16 - silly: peer[0]:127.0.0.1:9002/EWsvWHqWnMt6YCsAAAAB/client
+23:18:16 - silly: peer[1]:127.0.0.1:9003/cito7OweiDiHy20NAAAA/client
+23:18:16 - silly: peer[2]:127.0.0.1:9173/gZeAkm0MM_93CiGZAAAA/server
+23:18:16 - silly: peer[n]:addr/id/myRole
+23:18:16 - silly: peer[0]:127.0.0.1:55970/vgwd6fqwK80Ztq8QAAAA/server
+23:18:16 - silly: peer[1]:127.0.0.1:9000/DGh-5RNY6LroC-1fAAAC/client
+23:18:16 - silly: peer[2]:127.0.0.1:9002/TjwOyZHnhtc3asGcAAAC/client
+23:18:16 - silly: peer[3]:127.0.0.1:9003/ygTkRDU4ha43CX7zAAAB/client
+23:18:16 - silly: [PING 1/3] : client
+23:18:16 - silly: [PING] Reçu FROM undefined
+23:18:16 - silly: [Ping] TTL:2/3. From:127.0.0.1:9001 to:
+23:18:16 - silly: Road 0 :client3
+23:18:16 - silly: [PING 2/3] : client
+23:18:16 - silly: [PING] Envoie à 127.0.0.1:9002...
+23:18:16 - silly: [PING 2/3] : client
+23:18:16 - silly: [PING] Envoie à 127.0.0.1:55816...
+23:18:16 - silly: [PONG 2/3] : undefined
+23:18:16 - silly: [PONG 2/3] : REçU de 127.0.0.1:9003 dest : 127.0.0.1:9001 message:127.0.0.1:9003
+23:18:16 - silly: [PONG] Ce pong m'est destiné !
+23:18:16 - silly: [PONG] Déjà connecté à lui.
+23:18:16 - silly: [PeerClient] Connection to 127.0.0.1:9004 ... OK !
+23:18:16 - silly: peer[n]:addr/id/myRole
+23:18:16 - silly: peer[0]:127.0.0.1:55970/vgwd6fqwK80Ztq8QAAAA/server
+23:18:16 - silly: peer[1]:127.0.0.1:9000/DGh-5RNY6LroC-1fAAAC/client
+23:18:16 - silly: peer[2]:127.0.0.1:9002/TjwOyZHnhtc3asGcAAAC/client
+23:18:16 - silly: peer[3]:127.0.0.1:9003/ygTkRDU4ha43CX7zAAAB/client
+23:18:16 - silly: peer[4]:127.0.0.1:9004/gZeAkm0MM_93CiGZAAAA/client
+23:18:16 - silly: [PING 1/3] : client
+23:18:16 - silly: [PING] Reçu ! FROM undefined
+23:18:16 - silly: [PONG] Reçu FROM undefined
+23:18:16 - silly: [PING 2/3] : client
+23:18:16 - silly: [PING] Envoie pong
+23:18:16 - silly: [PONG 2/3] : dest final: 127.0.0.1:9004
+23:18:16 - silly: [PONG 1/3] : REçU de 127.0.0.1:9004 dest : 127.0.0.1:9001 message:127.0.0.1:9004
+23:18:16 - silly: [PONG] Ce pong m'est destiné !
+23:18:16 - silly: [PONG] Too Many Connection : 5
+23:18:16 - silly: [PING] Reçu FROM undefined
+23:18:16 - silly: [Ping] TTL:2/3. From:127.0.0.1:9001 to:
+23:18:16 - silly: Road 0 :client4
+23:18:16 - silly: [PING 2/3] : client
+23:18:16 - silly: [PING] Envoie à 127.0.0.1:9002...
+23:18:16 - silly: [PING 2/3] : client
+23:18:16 - silly: [PING] Envoie à 127.0.0.1:9003...
+23:18:16 - silly: [PONG 2/3] : undefined
+23:18:16 - silly: [PONG 2/3] : REçU de 127.0.0.1:9004 dest : 127.0.0.1:9001 message:127.0.0.1:9004
+23:18:16 - silly: [PONG] Ce pong m'est destiné !
+23:18:16 - silly: [PONG] Too Many Connection : 5
+23:18:17 - silly: [PeerServer] New client connected !
+23:18:17 - silly: peer[n]:addr/id/myRole
+23:18:17 - silly: peer[0]:127.0.0.1:55970/vgwd6fqwK80Ztq8QAAAA/server
+23:18:17 - silly: peer[1]:127.0.0.1:9000/DGh-5RNY6LroC-1fAAAC/client
+23:18:17 - silly: peer[2]:127.0.0.1:9002/TjwOyZHnhtc3asGcAAAC/client
+23:18:17 - silly: peer[3]:127.0.0.1:9003/ygTkRDU4ha43CX7zAAAB/client
+23:18:17 - silly: peer[4]:127.0.0.1:9004/gZeAkm0MM_93CiGZAAAA/client
+23:18:17 - silly: peer[5]:127.0.0.1:56020/6dW3NFCPFTS_P-2gAAAB/server
+23:18:17 - silly: [PeerClient] Connection to 127.0.0.1:9001 ... OK !
+23:18:17 - silly: peer[n]:addr/id/myRole
+23:18:17 - silly: peer[0]:127.0.0.1:9002/w_xEUv8sNFXwHBw1AAAA/client
+23:18:17 - silly: peer[1]:127.0.0.1:55816/cito7OweiDiHy20NAAAA/server
+23:18:17 - silly: peer[2]:127.0.0.1:56696/ygTkRDU4ha43CX7zAAAB/server
+23:18:17 - silly: peer[3]:127.0.0.1:9001/6dW3NFCPFTS_P-2gAAAB/client
+23:18:17 - silly: [PING 1/3] : client3
+23:18:17 - silly: [PING] Reçu FROM undefined
+23:18:17 - silly: [PING] Reçu ! FROM undefined
+23:18:17 - silly: [PING 2/3] : client3
+23:18:17 - silly: [PING] Envoie pong
+23:18:17 - silly: [PONG 2/3] : dest final: 127.0.0.1:9002
+23:18:17 - silly: [Ping] TTL:2/3. From:127.0.0.1:9003 to:
+23:18:17 - silly: Road 0 :client
+23:18:17 - silly: [PING 2/3] : client3
+23:18:17 - silly: [PING] Envoie à 127.0.0.1:55970...
+23:18:17 - silly: [PING 2/3] : client3
+23:18:17 - silly: [PING] Envoie à 127.0.0.1:9000...
+23:18:17 - silly: [PING 2/3] : client3
+23:18:17 - silly: [PING] Envoie à 127.0.0.1:9002...
+23:18:17 - silly: [PING 2/3] : client3
+23:18:17 - silly: [PING] Envoie à 127.0.0.1:9003...
+23:18:17 - silly: [PING 2/3] : client3
+23:18:17 - silly: [PING] Envoie à 127.0.0.1:9004...
+23:18:17 - silly: [PONG 2/3] : undefined
+23:18:17 - silly: [PONG 2/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9003
+23:18:17 - silly: [PONG] Reçu FROM undefined
+23:18:17 - silly: [PONG] Reçu avec le message : 127.0.0.1:9001
+23:18:17 - silly: [PONG] Ce pong m'est destiné !
+23:18:17 - silly: [PONG] Déjà connecté à lui.
+23:18:17 - silly: [PONG 1/3] : REçU de 127.0.0.1:9002 dest : 127.0.0.1:9003
+23:18:17 - silly: [PONG] Reçu avec le message : 127.0.0.1:9002
+23:18:17 - silly: [PONG] Ce pong m'est destiné !
+23:18:17 - silly: [PONG] Déjà connecté à lui.
+23:18:18 - silly: peer[n]:addr/id/myRole
+23:18:18 - silly: peer[n]:addr/id/myRole
+23:18:18 - silly: peer[0]:127.0.0.1:55816/cito7OweiDiHy20NAAAA/server
+23:18:18 - silly: peer[1]:127.0.0.1:56696/ygTkRDU4ha43CX7zAAAB/server
+23:18:18 - silly: peer[2]:127.0.0.1:9001/6dW3NFCPFTS_P-2gAAAB/client
+23:18:18 - silly: [PeerClient] A server disconnects 
+23:18:18 - silly: peer[0]:127.0.0.1:17971/DGh-5RNY6LroC-1fAAAC/server
+23:18:18 - silly: [PeerServer] A client disconnects 
+23:18:18 - silly: peer[n]:addr/id/myRole
+23:18:18 - silly: peer[n]:addr/id/myRole
+23:18:18 - silly: peer[0]:127.0.0.1:9003/cito7OweiDiHy20NAAAA/client
+23:18:18 - silly: peer[1]:127.0.0.1:9173/gZeAkm0MM_93CiGZAAAA/server
+23:18:18 - silly: [PeerClient] A server disconnects 
+23:18:18 - silly: peer[0]:127.0.0.1:55970/vgwd6fqwK80Ztq8QAAAA/server
+23:18:18 - silly: peer[1]:127.0.0.1:9000/DGh-5RNY6LroC-1fAAAC/client
+23:18:18 - silly: peer[2]:127.0.0.1:9003/ygTkRDU4ha43CX7zAAAB/client
+23:18:18 - silly: peer[3]:127.0.0.1:9004/gZeAkm0MM_93CiGZAAAA/client
+23:18:18 - silly: peer[4]:127.0.0.1:56020/6dW3NFCPFTS_P-2gAAAB/server
+23:18:18 - silly: [PeerClient] A server disconnects 
+23:18:18 - silly: peer[n]:addr/id/myRole
+23:18:18 - silly: peer[0]:127.0.0.1:9000/DGh-5RNY6LroC-1fAAAC/client
+23:18:18 - silly: peer[1]:127.0.0.1:9003/ygTkRDU4ha43CX7zAAAB/client
+23:18:18 - silly: peer[2]:127.0.0.1:9004/gZeAkm0MM_93CiGZAAAA/client
+23:18:18 - silly: peer[3]:127.0.0.1:56020/6dW3NFCPFTS_P-2gAAAB/server
+23:18:18 - silly: [PeerServer] A client disconnects 
+23:18:19 - silly: [HTTP] Listening on port 9002
+23:18:19 - silly: [PeerManager] Hello : client2
+
+23:18:20 - silly: [PeerServer] New client connected !
+23:18:20 - silly: peer[n]:addr/id/myRole
+23:18:20 - silly: peer[0]:127.0.0.1:17971/DGh-5RNY6LroC-1fAAAC/server
+23:18:20 - silly: peer[1]:127.0.0.1:18041/yiPU-ZCVsiYyi1P9AAAD/server
+23:18:20 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+23:18:20 - silly: peer[n]:addr/id/myRole
+23:18:20 - silly: peer[0]:127.0.0.1:9000/yiPU-ZCVsiYyi1P9AAAD/client
+23:18:20 - silly: [PING 1/3] : client2
+23:18:20 - silly: [PING] Reçu FROM undefined
+23:18:20 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+23:18:20 - silly: Road 0 :serveur
+23:18:20 - silly: [PING 2/3] : client2
+23:18:20 - silly: [PING] Envoie à 127.0.0.1:17971...
+23:18:20 - silly: [PONG 2/3] : undefined
+23:18:20 - silly: [PING 2/3] : REçU de 127.0.0.1:9002 dest :  message:[object Object]
+23:18:20 - silly: [PONG 3/3] : dest final: 127.0.0.1:9001
+23:18:20 - silly: [PONG] Reçu FROM undefined
+23:18:20 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9002 message:127.0.0.1:9000
+23:18:20 - silly: [PONG] Ce pong m'est destiné !
+23:18:20 - silly: [PONG] Déjà connecté à lui.
+23:18:21 - silly: [PeerServer] New client connected !
+23:18:21 - silly: peer[n]:addr/id/myRole
+23:18:21 - silly: peer[0]:127.0.0.1:9000/yiPU-ZCVsiYyi1P9AAAD/client
+23:18:21 - silly: peer[1]:127.0.0.1:31948/VaCcOms4a1dlCRv-AAAA/server
+23:18:21 - silly: [PeerClient] Connection to 127.0.0.1:9002 ... OK !
+23:18:21 - silly: peer[n]:addr/id/myRole
+23:18:21 - silly: peer[0]:127.0.0.1:55816/cito7OweiDiHy20NAAAA/server
+23:18:21 - silly: peer[1]:127.0.0.1:56696/ygTkRDU4ha43CX7zAAAB/server
+23:18:21 - silly: peer[2]:127.0.0.1:9001/6dW3NFCPFTS_P-2gAAAB/client
+23:18:21 - silly: peer[3]:127.0.0.1:9002/VaCcOms4a1dlCRv-AAAA/client
+23:18:21 - silly: [PING 1/3] : client3
+23:18:21 - silly: [PING] Reçu FROM undefined
+23:18:21 - silly: [Ping] TTL:2/3. From:127.0.0.1:9003 to:
+23:18:21 - silly: Road 0 :client2
+23:18:21 - silly: [PING 2/3] : client3
+23:18:21 - silly: [PING] Envoie à 127.0.0.1:9000...
+23:18:21 - silly: [PONG 2/3] : undefined
+23:18:21 - silly: [PONG 2/3] : REçU de 127.0.0.1:9002 dest : 127.0.0.1:9003
+23:18:21 - silly: [PONG] Reçu avec le message : 127.0.0.1:9002
+23:18:21 - silly: [PONG] Ce pong m'est destiné !
+23:18:21 - silly: [PONG] Déjà connecté à lui.
+23:18:21 - silly: [PeerServer] New client connected !
+23:18:21 - silly: peer[n]:addr/id/myRole
+23:18:21 - silly: peer[0]:127.0.0.1:9000/yiPU-ZCVsiYyi1P9AAAD/client
+23:18:21 - silly: peer[1]:127.0.0.1:31948/VaCcOms4a1dlCRv-AAAA/server
+23:18:21 - silly: peer[2]:127.0.0.1:31958/u5Vo_YHQNEolgFKYAAAB/server
+23:18:21 - silly: [PeerClient] Connection to 127.0.0.1:9002 ... OK !
+23:18:21 - silly: peer[n]:addr/id/myRole
+23:18:21 - silly: peer[0]:127.0.0.1:9000/DGh-5RNY6LroC-1fAAAC/client
+23:18:21 - silly: peer[1]:127.0.0.1:9003/ygTkRDU4ha43CX7zAAAB/client
+23:18:21 - silly: peer[2]:127.0.0.1:9004/gZeAkm0MM_93CiGZAAAA/client
+23:18:21 - silly: peer[3]:127.0.0.1:56020/6dW3NFCPFTS_P-2gAAAB/server
+23:18:21 - silly: peer[4]:127.0.0.1:9002/u5Vo_YHQNEolgFKYAAAB/client
+23:18:21 - silly: [PING 1/3] : client
+23:18:21 - silly: [PING] Reçu FROM undefined
+23:18:21 - silly: [Ping] TTL:2/3. From:127.0.0.1:9001 to:
+23:18:21 - silly: Road 0 :client2
+23:18:21 - silly: [PING 2/3] : client
+23:18:21 - silly: [PING] Envoie à 127.0.0.1:9000...
+23:18:21 - silly: [PING 2/3] : client
+23:18:21 - silly: [PING] Envoie à 127.0.0.1:31948...
+23:18:21 - silly: [PONG 2/3] : undefined
+23:18:21 - silly: [PING] Reçu ! FROM undefined
+23:18:21 - silly: [PING 2/3] : client
+23:18:21 - silly: [PING] Envoie pong
+23:18:21 - silly: [PONG 2/3] : dest final: 127.0.0.1:9003
+23:18:21 - silly: [PONG 2/3] : REçU de 127.0.0.1:9002 dest : 127.0.0.1:9001 message:127.0.0.1:9002
+23:18:21 - silly: [PONG] Reçu FROM undefined
+23:18:21 - silly: [PONG] Ce pong m'est destiné !
+23:18:21 - silly: [PONG] Too Many Connection : 5
+23:18:21 - silly: [PONG 1/3] : REçU de 127.0.0.1:9003 dest : 127.0.0.1:9001 message:127.0.0.1:9003
+23:18:21 - silly: [PONG] Ce pong m'est destiné !
+23:18:21 - silly: [PONG] Too Many Connection : 5
+23:18:22 - silly: peer[n]:addr/id/myRole
+23:18:22 - silly: peer[n]:addr/id/myRole
+23:18:22 - silly: peer[n]:addr/id/myRole
+23:18:22 - silly: peer[0]:127.0.0.1:9000/DGh-5RNY6LroC-1fAAAC/client
+23:18:22 - silly: peer[1]:127.0.0.1:9003/ygTkRDU4ha43CX7zAAAB/client
+23:18:22 - silly: peer[2]:127.0.0.1:9004/gZeAkm0MM_93CiGZAAAA/client
+23:18:22 - silly: peer[3]:127.0.0.1:9002/u5Vo_YHQNEolgFKYAAAB/client
+23:18:22 - silly: [PeerServer] A client disconnects 
+23:18:22 - silly: peer[n]:addr/id/myRole
+23:18:22 - silly: peer[0]:127.0.0.1:9000/DGh-5RNY6LroC-1fAAAC/client
+23:18:22 - silly: peer[1]:127.0.0.1:9004/gZeAkm0MM_93CiGZAAAA/client
+23:18:22 - silly: peer[2]:127.0.0.1:9002/u5Vo_YHQNEolgFKYAAAB/client
+23:18:22 - silly: [PeerClient] A server disconnects 
+23:18:22 - silly: peer[0]:127.0.0.1:9000/yiPU-ZCVsiYyi1P9AAAD/client
+23:18:22 - silly: peer[1]:127.0.0.1:31958/u5Vo_YHQNEolgFKYAAAB/server
+23:18:22 - silly: [PeerServer] A client disconnects 
+23:18:22 - silly: peer[0]:127.0.0.1:9173/gZeAkm0MM_93CiGZAAAA/server
+23:18:22 - silly: [PeerClient] A server disconnects 
+23:18:22 - silly: [PeerServer] New client connected !
+23:18:22 - silly: peer[n]:addr/id/myRole
+23:18:22 - silly: peer[0]:127.0.0.1:9000/yiPU-ZCVsiYyi1P9AAAD/client
+23:18:22 - silly: peer[1]:127.0.0.1:31958/u5Vo_YHQNEolgFKYAAAB/server
+23:18:22 - silly: peer[2]:127.0.0.1:31968/CJ5ZWP5KA8Z7aJXsAAAC/server
+23:18:22 - silly: [PeerClient] Connection to 127.0.0.1:9002 ... OK !
+23:18:22 - silly: peer[n]:addr/id/myRole
+23:18:22 - silly: peer[0]:127.0.0.1:9173/gZeAkm0MM_93CiGZAAAA/server
+23:18:22 - silly: peer[1]:127.0.0.1:9002/CJ5ZWP5KA8Z7aJXsAAAC/client
+23:18:22 - silly: [PING 1/3] : client4
+23:18:22 - silly: [PING] Reçu FROM undefined
+23:18:22 - silly: [PING 2/3] : REçU de 127.0.0.1:9004 dest :  message:[object Object]
+23:18:22 - silly: [PONG 3/3] : dest final: 127.0.0.1:9001
+23:18:22 - silly: [PONG 2/3] : REçU de 127.0.0.1:9002 dest : 127.0.0.1:9004
+23:18:22 - silly: [Ping] TTL:2/3. From:127.0.0.1:9004 to:
+23:18:22 - silly: Road 0 :client2
+23:18:22 - silly: [PING 2/3] : client4
+23:18:22 - silly: [PING] Envoie à 127.0.0.1:9000...
+23:18:22 - silly: [PING 2/3] : client4
+23:18:22 - silly: [PING] Envoie à 127.0.0.1:31958...
+23:18:22 - silly: [PONG 2/3] : undefined
+23:18:22 - silly: [PONG] Reçu FROM undefined
+23:18:22 - silly: [PONG] Reçu avec le message : 127.0.0.1:9002
+23:18:22 - silly: [PONG] Ce pong m'est destiné !
+23:18:22 - silly: [PONG] Déjà connecté à lui.
+23:18:23 - silly: [HTTP] Listening on port 9003
+23:18:23 - silly: [PeerManager] Hello : client3
+
+23:18:23 - silly: [PeerServer] New client connected !
+23:18:23 - silly: peer[n]:addr/id/myRole
+23:18:23 - silly: peer[0]:127.0.0.1:9000/DGh-5RNY6LroC-1fAAAC/client
+23:18:23 - silly: peer[1]:127.0.0.1:9004/gZeAkm0MM_93CiGZAAAA/client
+23:18:23 - silly: peer[2]:127.0.0.1:9002/u5Vo_YHQNEolgFKYAAAB/client
+23:18:23 - silly: peer[3]:127.0.0.1:56080/tYhZwuRabUOtGupFAAAC/server
+23:18:23 - silly: [PeerClient] Connection to 127.0.0.1:9001 ... OK !
+23:18:23 - silly: [PING] Reçu FROM undefined
+23:18:23 - silly: peer[n]:addr/id/myRole
+23:18:23 - silly: peer[0]:127.0.0.1:9001/tYhZwuRabUOtGupFAAAC/client
+23:18:23 - silly: [PING 1/3] : client3
+23:18:23 - silly: [Ping] TTL:2/3. From:127.0.0.1:9003 to:
+23:18:23 - silly: Road 0 :client
+23:18:23 - silly: [PING 2/3] : client3
+23:18:23 - silly: [PING] Envoie à 127.0.0.1:9000...
+23:18:23 - silly: [PING 2/3] : client3
+23:18:23 - silly: [PING] Envoie à 127.0.0.1:9004...
+23:18:23 - silly: [PING 2/3] : client3
+23:18:23 - silly: [PING] Envoie à 127.0.0.1:9002...
+23:18:23 - silly: [PONG 2/3] : undefined
+23:18:23 - silly: [PONG 2/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9003 message:127.0.0.1:9001
+23:18:23 - silly: [PONG] Ce pong m'est destiné !
+23:18:23 - silly: [PONG] Déjà connecté à lui.
+23:18:23 - silly: [PeerServer] New client connected !
+23:18:23 - silly: peer[n]:addr/id/myRole
+23:18:23 - silly: peer[0]:127.0.0.1:9001/tYhZwuRabUOtGupFAAAC/client
+23:18:23 - silly: peer[1]:127.0.0.1:56782/u9B4psMKQHIATZeAAAAA/server
+23:18:23 - silly: [PeerClient] Connection to 127.0.0.1:9003 ... OK !
+23:18:23 - silly: peer[n]:addr/id/myRole
+23:18:23 - silly: peer[0]:127.0.0.1:9000/DGh-5RNY6LroC-1fAAAC/client
+23:18:23 - silly: peer[1]:127.0.0.1:9004/gZeAkm0MM_93CiGZAAAA/client
+23:18:23 - silly: peer[2]:127.0.0.1:9002/u5Vo_YHQNEolgFKYAAAB/client
+23:18:23 - silly: peer[3]:127.0.0.1:56080/tYhZwuRabUOtGupFAAAC/server
+23:18:23 - silly: peer[4]:127.0.0.1:9003/u9B4psMKQHIATZeAAAAA/client
+23:18:23 - silly: [PING 1/3] : client
+23:18:23 - silly: [PING] Reçu FROM undefined
+23:18:23 - silly: [Ping] TTL:2/3. From:127.0.0.1:9001 to:
+23:18:23 - silly: Road 0 :client3
+23:18:23 - silly: [PING 2/3] : client
+23:18:23 - silly: [PING] Envoie à 127.0.0.1:9001...
+23:18:23 - silly: [PONG 2/3] : undefined
+23:18:23 - silly: [PONG 2/3] : REçU de 127.0.0.1:9003 dest : 127.0.0.1:9001 message:127.0.0.1:9003
+23:18:23 - silly: [PONG] Ce pong m'est destiné !
+23:18:23 - silly: [PONG] Too Many Connection : 5
+23:18:23 - silly: [PeerServer] New client connected !
+23:18:23 - silly: peer[n]:addr/id/myRole
+23:18:23 - silly: peer[0]:127.0.0.1:9001/tYhZwuRabUOtGupFAAAC/client
+23:18:23 - silly: peer[1]:127.0.0.1:56782/u9B4psMKQHIATZeAAAAA/server
+23:18:23 - silly: peer[2]:127.0.0.1:56792/UAAsBfxlF0rWhgOwAAAB/server
+23:18:23 - silly: [PeerClient] Connection to 127.0.0.1:9003 ... OK !
+23:18:23 - silly: peer[n]:addr/id/myRole
+23:18:23 - silly: peer[0]:127.0.0.1:9173/gZeAkm0MM_93CiGZAAAA/server
+23:18:23 - silly: peer[1]:127.0.0.1:9002/CJ5ZWP5KA8Z7aJXsAAAC/client
+23:18:23 - silly: peer[2]:127.0.0.1:9003/UAAsBfxlF0rWhgOwAAAB/client
+23:18:23 - silly: [PING 1/3] : client4
+23:18:23 - silly: [PING] Reçu FROM undefined
+23:18:23 - silly: [PING 2/3] : REçU de 127.0.0.1:9004 dest :  message:[object Object]
+23:18:23 - silly: [Ping] TTL:2/3. From:127.0.0.1:9004 to:
+23:18:23 - silly: Road 0 :client3
+23:18:23 - silly: [PING 2/3] : client4
+23:18:23 - silly: [PING] Envoie à 127.0.0.1:9001...
+23:18:23 - silly: [PING 2/3] : client4
+23:18:23 - silly: [PING] Envoie à 127.0.0.1:56782...
+23:18:23 - silly: [PONG 2/3] : undefined
+23:18:23 - silly: [PONG 3/3] : dest final: 127.0.0.1:9001
+23:18:23 - silly: [PONG 2/3] : REçU de 127.0.0.1:9003 dest : 127.0.0.1:9004
+23:18:23 - silly: [PONG] Reçu avec le message : 127.0.0.1:9003
+23:18:23 - silly: [PONG] Ce pong m'est destiné !
+23:18:23 - silly: [PONG] Déjà connecté à lui.
+23:18:23 - silly: [PONG] Reçu FROM undefined
+23:18:25 - silly: peer[n]:addr/id/myRole
+23:18:25 - silly: peer[0]:127.0.0.1:9000/DGh-5RNY6LroC-1fAAAC/client
+23:18:25 - silly: peer[1]:127.0.0.1:9002/u5Vo_YHQNEolgFKYAAAB/client
+23:18:25 - silly: peer[2]:127.0.0.1:56080/tYhZwuRabUOtGupFAAAC/server
+23:18:25 - silly: peer[3]:127.0.0.1:9003/u9B4psMKQHIATZeAAAAA/client
+23:18:25 - silly: [PeerClient] A server disconnects 
+23:18:25 - silly: peer[n]:addr/id/myRole
+23:18:25 - silly: peer[n]:addr/id/myRole
+23:18:25 - silly: peer[0]:127.0.0.1:9000/yiPU-ZCVsiYyi1P9AAAD/client
+23:18:25 - silly: peer[1]:127.0.0.1:31958/u5Vo_YHQNEolgFKYAAAB/server
+23:18:25 - silly: [PeerServer] A client disconnects 
+23:18:25 - silly: peer[0]:127.0.0.1:9001/tYhZwuRabUOtGupFAAAC/client
+23:18:25 - silly: peer[1]:127.0.0.1:56782/u9B4psMKQHIATZeAAAAA/server
+23:18:25 - silly: [PeerServer] A client disconnects 
+23:18:26 - silly: [HTTP] Listening on port 9004
+23:18:26 - silly: [PeerManager] Hello : client4
+
+23:18:26 - silly: [PeerServer] New client connected !
+23:18:26 - silly: peer[n]:addr/id/myRole
+23:18:26 - silly: peer[0]:127.0.0.1:9000/yiPU-ZCVsiYyi1P9AAAD/client
+23:18:26 - silly: peer[1]:127.0.0.1:31958/u5Vo_YHQNEolgFKYAAAB/server
+23:18:26 - silly: peer[2]:127.0.0.1:32014/_w9dL_7tIw_QxFh7AAAD/server
+23:18:26 - silly: [PeerClient] Connection to 127.0.0.1:9002 ... OK !
+23:18:26 - silly: peer[n]:addr/id/myRole
+23:18:26 - silly: peer[0]:127.0.0.1:9002/_w9dL_7tIw_QxFh7AAAD/client
+23:18:26 - silly: [PING 1/3] : client4
+23:18:26 - silly: [PING] Reçu FROM undefined
+23:18:26 - silly: [PING 2/3] : REçU de 127.0.0.1:9004 dest :  message:[object Object]
+23:18:26 - silly: [PONG 3/3] : dest final: 127.0.0.1:9001
+23:18:26 - silly: [Ping] TTL:2/3. From:127.0.0.1:9004 to:
+23:18:26 - silly: Road 0 :client2
+23:18:26 - silly: [PING 2/3] : client4
+23:18:26 - silly: [PING] Envoie à 127.0.0.1:9000...
+23:18:26 - silly: [PING 2/3] : client4
+23:18:26 - silly: [PING] Envoie à 127.0.0.1:31958...
+23:18:26 - silly: [PONG 2/3] : undefined
+23:18:26 - silly: [PONG 2/3] : REçU de 127.0.0.1:9002 dest : 127.0.0.1:9004 message:127.0.0.1:9002
+23:18:26 - silly: [PONG] Reçu FROM undefined
+23:18:26 - silly: [PONG] Ce pong m'est destiné !
+23:18:26 - silly: [PONG] Déjà connecté à lui.
+23:18:27 - silly: [PeerServer] New client connected !
+23:18:27 - silly: peer[n]:addr/id/myRole
+23:18:27 - silly: peer[0]:127.0.0.1:9002/_w9dL_7tIw_QxFh7AAAD/client
+23:18:27 - silly: peer[1]:127.0.0.1:9295/2Gg0IygM2r3xls3TAAAA/server
+23:18:27 - silly: [PeerClient] Connection to 127.0.0.1:9004 ... OK !
+23:18:27 - silly: peer[n]:addr/id/myRole
+23:18:27 - silly: peer[0]:127.0.0.1:9000/DGh-5RNY6LroC-1fAAAC/client
+23:18:27 - silly: peer[1]:127.0.0.1:9002/u5Vo_YHQNEolgFKYAAAB/client
+23:18:27 - silly: peer[2]:127.0.0.1:56080/tYhZwuRabUOtGupFAAAC/server
+23:18:27 - silly: peer[3]:127.0.0.1:9003/u9B4psMKQHIATZeAAAAA/client
+23:18:27 - silly: peer[4]:127.0.0.1:9004/2Gg0IygM2r3xls3TAAAA/client
+23:18:27 - silly: [PING 1/3] : client
+23:18:27 - silly: [PING] Reçu FROM undefined
+23:18:27 - silly: [Ping] TTL:2/3. From:127.0.0.1:9001 to:
+23:18:27 - silly: Road 0 :client4
+23:18:27 - silly: [PING 2/3] : client
+23:18:27 - silly: [PING] Envoie à 127.0.0.1:9002...
+23:18:27 - silly: [PONG 2/3] : undefined
+23:18:27 - silly: [PONG 2/3] : REçU de 127.0.0.1:9004 dest : 127.0.0.1:9001 message:127.0.0.1:9004
+23:18:27 - silly: [PONG] Ce pong m'est destiné !
+23:18:27 - silly: [PONG] Too Many Connection : 5
+23:25:4 - silly: peer[n]:addr/id/myRole
+23:25:4 - silly: peer[n]:addr/id/myRole
+23:25:4 - silly: peer[0]:127.0.0.1:9002/u5Vo_YHQNEolgFKYAAAB/client
+23:25:4 - silly: peer[1]:127.0.0.1:56080/tYhZwuRabUOtGupFAAAC/server
+23:25:4 - silly: peer[2]:127.0.0.1:9003/u9B4psMKQHIATZeAAAAA/client
+23:25:4 - silly: peer[3]:127.0.0.1:9004/2Gg0IygM2r3xls3TAAAA/client
+23:25:4 - silly: [PeerClient] A server disconnects 
+23:25:4 - silly: peer[0]:127.0.0.1:31958/u5Vo_YHQNEolgFKYAAAB/server
+23:25:4 - silly: peer[1]:127.0.0.1:32014/_w9dL_7tIw_QxFh7AAAD/server
+23:25:4 - silly: [PeerClient] A server disconnects 
+23:25:5 - silly: [HTTP] Listening on port 9000
+23:25:5 - silly: [PeerManager] Hello : serveur
+
+23:25:30 - silly: [PeerServer] New client connected !
+23:25:30 - silly: peer[n]:addr/id/myRole
+23:25:30 - silly: peer[0]:127.0.0.1:18233/LxjhNsDi5p4uheKnAAAA/server
+23:25:30 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+23:25:30 - silly: peer[n]:addr/id/myRole
+23:25:30 - silly: peer[0]:127.0.0.1:31958/u5Vo_YHQNEolgFKYAAAB/server
+23:25:30 - silly: peer[1]:127.0.0.1:32014/_w9dL_7tIw_QxFh7AAAD/server
+23:25:30 - silly: peer[2]:127.0.0.1:9000/LxjhNsDi5p4uheKnAAAA/client
+23:25:30 - silly: [PING 1/3] : client2
+23:25:49 - silly: [PeerServer] New client connected !
+23:25:49 - silly: peer[n]:addr/id/myRole
+23:25:49 - silly: peer[0]:127.0.0.1:18233/LxjhNsDi5p4uheKnAAAA/server
+23:25:49 - silly: peer[1]:127.0.0.1:18239/8il_HFhQzYhT1uMXAAAB/server
+23:25:53 - silly: [PeerServer] New client connected !
+23:25:53 - silly: peer[n]:addr/id/myRole
+23:25:53 - silly: peer[0]:127.0.0.1:18233/LxjhNsDi5p4uheKnAAAA/server
+23:25:53 - silly: peer[1]:127.0.0.1:18239/8il_HFhQzYhT1uMXAAAB/server
+23:25:53 - silly: peer[2]:127.0.0.1:18241/KCNwsHCO8cjpr4S_AAAC/server
+23:25:54 - silly: [PING] Reçu FROM undefined
+23:25:54 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+23:25:54 - silly: Road 0 :serveur
+23:25:54 - silly: [PING 2/3] : client2
+23:25:54 - silly: [PING] Envoie à 127.0.0.1:18239...
+23:25:54 - silly: [PING 2/3] : client2
+23:25:54 - silly: [PING] Envoie à 127.0.0.1:18241...
+23:25:54 - silly: [PONG 2/3] : undefined
+23:25:54 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9002 message:127.0.0.1:9000
+23:25:54 - silly: [PONG] Ce pong m'est destiné !
+23:25:54 - silly: [PONG] Déjà connecté à lui.
+23:25:54 - silly: [PeerServer] New client connected !
+23:25:54 - silly: peer[n]:addr/id/myRole
+23:25:54 - silly: peer[0]:127.0.0.1:18233/LxjhNsDi5p4uheKnAAAA/server
+23:25:54 - silly: peer[1]:127.0.0.1:18239/8il_HFhQzYhT1uMXAAAB/server
+23:25:54 - silly: peer[2]:127.0.0.1:18241/KCNwsHCO8cjpr4S_AAAC/server
+23:25:54 - silly: peer[3]:127.0.0.1:18253/3pZmhNMlnhFJj9mfAAAD/server
+23:25:54 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+23:25:54 - silly: peer[n]:addr/id/myRole
+23:25:54 - silly: peer[0]:127.0.0.1:9002/u5Vo_YHQNEolgFKYAAAB/client
+23:25:54 - silly: peer[1]:127.0.0.1:56080/tYhZwuRabUOtGupFAAAC/server
+23:25:54 - silly: peer[2]:127.0.0.1:9003/u9B4psMKQHIATZeAAAAA/client
+23:25:54 - silly: peer[3]:127.0.0.1:9004/2Gg0IygM2r3xls3TAAAA/client
+23:25:54 - silly: peer[4]:127.0.0.1:9000/3pZmhNMlnhFJj9mfAAAD/client
+23:25:54 - silly: [PING 1/3] : client
+23:25:54 - silly: [PING] Reçu FROM undefined
+23:25:54 - silly: [PING 2/3] : REçU de 127.0.0.1:9001 dest :  message:[object Object]
+23:25:54 - silly: [Ping] TTL:2/3. From:127.0.0.1:9001 to:
+23:25:54 - silly: Road 0 :serveur
+23:25:54 - silly: [PING 2/3] : client
+23:25:54 - silly: [PING] Envoie à 127.0.0.1:18233...
+23:25:54 - silly: [PING 2/3] : client
+23:25:54 - silly: [PING] Envoie à 127.0.0.1:18239...
+23:25:54 - silly: [PING 2/3] : client
+23:25:54 - silly: [PING] Envoie à 127.0.0.1:18241...
+23:25:54 - silly: [PONG 2/3] : undefined
+23:25:54 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9001 message:127.0.0.1:9000
+23:25:54 - silly: [PONG] Ce pong m'est destiné !
+23:25:54 - silly: [PONG] Too Many Connection : 5
+23:25:54 - silly: [PONG 3/3] : dest final: 127.0.0.1:9002
+23:25:54 - silly: [PONG] Reçu FROM undefined
+23:26:21 - silly: peer[n]:addr/id/myRole
+23:26:21 - silly: peer[0]:127.0.0.1:9002/u5Vo_YHQNEolgFKYAAAB/client
+23:26:21 - silly: peer[1]:127.0.0.1:56080/tYhZwuRabUOtGupFAAAC/server
+23:26:21 - silly: peer[2]:127.0.0.1:9003/u9B4psMKQHIATZeAAAAA/client
+23:26:21 - silly: peer[3]:127.0.0.1:9004/2Gg0IygM2r3xls3TAAAA/client
+23:26:21 - silly: [PeerClient] A server disconnects 
+23:26:21 - silly: peer[n]:addr/id/myRole
+23:26:21 - silly: peer[0]:127.0.0.1:31958/u5Vo_YHQNEolgFKYAAAB/server
+23:26:21 - silly: peer[1]:127.0.0.1:32014/_w9dL_7tIw_QxFh7AAAD/server
+23:26:21 - silly: [PeerClient] A server disconnects 
+23:26:22 - silly: [HTTP] Listening on port 9000
+23:26:22 - silly: [PeerManager] Hello : serveur
+
+23:27:48 - silly: peer[n]:addr/id/myRole
+23:27:48 - silly: peer[0]:127.0.0.1:31958/u5Vo_YHQNEolgFKYAAAB/server
+23:27:48 - silly: peer[1]:127.0.0.1:32014/_w9dL_7tIw_QxFh7AAAD/server
+23:27:48 - silly: [PeerClient] A server disconnects 

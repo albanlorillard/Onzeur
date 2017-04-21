@@ -20,12 +20,6 @@ var myId = {};
 module.exports = {
     myId: myId,
     start: function(server, ip, port) {
-        //////// PSEUDO CODE /////////
-        /// 1) Démarrer mon serveur
-        /// 1bis) Si j'ai passé une IP en paramètre se connecter au serveur en question en tant que client
-
-
-
         //// Define an user pseudo
         if (process.argv[3] == undefined)
             pseudo = "guest_" + new Date().getTime();
@@ -41,19 +35,20 @@ module.exports = {
             "port":port
         };
 
-        logger.silly("[PeerManager] Hello : " + pseudo +"\n");
+        logger.silly("[PeerManager] Bonjour " + pseudo +" ( "+myId.addr+" ) \n");
 
         // ************ SERVER ********************//
-        var serverP2P= new peerServer(server, myId);
+        var serverP2P = new peerServer(server, myId);
 
 
         //************* CLIENT ******************** //
         to = process.argv[4];
         if (to != undefined) {
             //First connection
-            var client = new peerClient(to, myId); // Create a new peer connection with arg if specify.
+            var client = new peerClient(to, myId, false); // Create a new peer connection with arg if specify.
             //peers.push(client);
         }
+       // var lo = new peerClient(myId.addr, myId, true); // Loop local
 
 
         // Le but est de gérer la création d'un réseau P2P entre plusieurs serveur de ce projet.
@@ -62,8 +57,10 @@ module.exports = {
         // De gérer la déconnexion à un pair
         // De gérer les requêtes entre pair
     },
-    getPseudo: function()
+    queryByGenre: function(genre)
     {
-        return myId.pseudo;
+        serverP2P.queryByGenre(genre);
+
+        //RETURN LOCAL URL MP3
     }
 };

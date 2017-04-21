@@ -12,7 +12,6 @@ var peerManager = require('../src/peerManager.js');
 var mp3Manager = require('../src/mp3Manager.js');
 var fluxManager = require('../src/fluxManager.js');
 var logger = require('../logger.js');
-
 /**
  * Get port from environment and store in Express.
  */
@@ -22,7 +21,6 @@ if (process.argv[2] != undefined)
 
 var port = normalizePort(process.env.PORT || portC);
 app.set('port', port);
-
 /**
  * Create HTTP server.
  */
@@ -108,7 +106,7 @@ function onListening() {
 /**
  * Mp3 Manager
  */
-mp3Manager.start();
+//mp3Manager.start();
 
 /**
  * flux Manager
