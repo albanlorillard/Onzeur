@@ -7,11 +7,13 @@
 var app = require('../app');
 var debug = require('debug')('onzeur:server');
 var http = require('http');
+
 //var peerServer = require('./peerServer');
 var peerManager = require('../src/peerManager.js');
 var mp3Manager = require('../src/mp3Manager.js');
 var fluxManager = require('../src/fluxManager.js');
 var logger = require('../logger.js');
+
 /**
  * Get port from environment and store in Express.
  */
@@ -107,6 +109,9 @@ function onListening() {
 /**
  * Mp3 Manager
  */
+<<<<<<< HEAD
+//peerServer.start();
+=======
 mp3Manager.start();
 
 /**
@@ -114,3 +119,4 @@ mp3Manager.start();
  */
 
 module.exports = server;
+>>>>>>> 27c631c3ec1fa9dc2bbca5da68528dc268bd84a7

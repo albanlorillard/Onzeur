@@ -14,7 +14,10 @@
     "express-winston": "^2.3.0",
     "fs": "0.0.1-security",
     "morgan": "~1.7.0",
+<<<<<<< HEAD
+=======
     "musicmetadata": "^2.0.5",
+>>>>>>> 27c631c3ec1fa9dc2bbca5da68528dc268bd84a7
     "mysql": "^2.13.0",
     "peer": "^0.2.8",
     "queuestream": "0.0.5",
