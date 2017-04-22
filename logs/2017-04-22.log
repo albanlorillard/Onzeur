@@ -498,3 +498,26 @@
 17:35:41 - silly: [HTTP] Listening on port 9000
 17:35:41 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
 
+19:5:27 - silly: [HTTP] Listening on port 3000
+19:5:27 - silly: [PeerManager] Bonjour guest_1492880727057 ( 127.0.0.1:3000 ) 
+
+19:10:22 - silly: [HTTP] Listening on port 3000
+19:10:22 - silly: [PeerManager] Bonjour guest_1492881022549 ( 127.0.0.1:3000 ) 
+
+19:16:27 - silly: [HTTP] Listening on port 3000
+19:17:34 - silly: [HTTP] Listening on port 3000
+19:18:54 - silly: [HTTP] Listening on port 3000
+19:18:54 - silly: [PeerManager] Bonjour guest_1492881534800 ( 127.0.0.1:3000 ) 
+
+19:20:51 - silly: [HTTP] Listening on port 3000
+19:20:51 - silly: [PeerManager] Bonjour guest_1492881651610 ( 127.0.0.1:3000 ) 
+
+19:29:40 - silly: [HTTP] Listening on port 3000
+19:29:40 - silly: [PeerManager] Bonjour guest_1492882180020 ( 127.0.0.1:3000 ) 
+
+19:34:44 - silly: [HTTP] Listening on port 3000
+19:34:44 - silly: [PeerManager] Bonjour guest_1492882484351 ( 127.0.0.1:3000 ) 
+
+19:36:5 - silly: [HTTP] Listening on port 3000
+19:36:5 - silly: [PeerManager] Bonjour guest_1492882565806 ( 127.0.0.1:3000 ) 
+

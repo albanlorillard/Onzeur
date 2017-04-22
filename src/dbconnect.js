@@ -40,6 +40,7 @@ function handleDisconnect() {
         else
         {
             console.log("Connection to database established");
+            connection.query(" CREATE TABLE if not exists `musiconzeur`.`listmp3` (`id` INT NOT NULL AUTO_INCREMENT,`title` VARCHAR(45) NULL,`artist` VARCHAR(45) NULL,`genre` VARCHAR(45) NULL,`url` VARCHAR(70) NULL,PRIMARY KEY (`id`));");
         }
     });                                     // process asynchronous requests in the meantime.
                                             // If you're also serving http, display a 503 error.
@@ -58,3 +59,4 @@ function handleDisconnect() {
 
 handleDisconnect();
  module.exports=connection;
+
