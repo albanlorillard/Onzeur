@@ -490,3 +490,11 @@
 16:54:27 - silly: [QUERYHIT] 127.0.0.1:9001 demande de la musique: Rock
 16:54:27 - silly: Sockets connected
 16:54:27 - silly: send
+17:20:27 - silly: ---- Listage de mes connections ! ---- 
+17:20:27 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:gFYpYlRIWIm_XKQ7AAAA
+17:20:27 - silly: [PeerServer] A client disconnects 
+17:20:27 - silly: ---- Listage de mes connections ! ---- 
+17:20:27 - silly: [PeerClient] A server disconnects 
+17:35:41 - silly: [HTTP] Listening on port 9000
+17:35:41 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+

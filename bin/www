@@ -109,9 +109,7 @@ function onListening() {
 /**
  * Mp3 Manager
  */
-<<<<<<< HEAD
 //peerServer.start();
-=======
 mp3Manager.start();
 
 /**
@@ -119,4 +117,3 @@ mp3Manager.start();
  */
 
 module.exports = server;
->>>>>>> 27c631c3ec1fa9dc2bbca5da68528dc268bd84a7

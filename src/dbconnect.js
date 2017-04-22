@@ -58,7 +58,3 @@ function handleDisconnect() {
 
 handleDisconnect();
  module.exports=connection;
-
-
-
->>>>>>> 27c631c3ec1fa9dc2bbca5da68528dc268bd84a7
