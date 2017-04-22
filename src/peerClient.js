@@ -66,6 +66,31 @@ function peerClient(ipDest, myId) {
         logger.silly("["+data.subject+"] Reçu de "+ data.from.pseudo + " ( "+data.from.addr+" ) " );
         logger.silly("["+data.subject+"] ("+data.currentTTL+"/"+data.maxTTL+") :  from "+data.from.pseudo+" ---> to: "+data.to.pseudo+ " me:"+myId.pseudo);
 
+
+
+        // TEST QUERY
+        var query = {
+            from:{
+                addr:myId.addr,
+                pseudo:myId.pseudo,
+                ip:myId.ip,
+                port: myId.port
+            },
+            to:"",
+            subject:"query",
+            message: {
+                genre: "Rock" //todo
+            },
+            maxTTL:P2Pconfig.maxTTL,
+            currentTTL:1,
+            road:[]
+        };
+        logger.silly("[Query] ("+query.currentTTL+"/"+query.maxTTL+") : "+query.from.pseudo+ ' ('+query.from.addr+')');
+        socketCl.emit("Ping", query);
+
+        //TEST QUERY
+
+
         if (data.to.addr == myId.addr)
         {
             logger.silly("["+data.subject+"] Ce pong m'est destiné !");

@@ -35,7 +35,7 @@ function perserFolder()
                 if (err) throw err;
                 try
                 {
-                    var laPoule= db.query("insert into listmp3 (title, artist,genre,url) values ('"+metadata.title.replace(/'/g,"\\'")+"', '"+metadata.artist[0].replace(/'/g,"\\'")+"','"+metadata.genre[0].replace(/'/g,"\\'")+"','./dossiermp3/test.mp3');");
+                        var laPoule= db.query("insert into listmp3 (title, artist,genre,url) values ('"+metadata.title.replace(/'/g,"\\'")+"', '"+metadata.artist[0].replace(/'/g,"\\'")+"','"+metadata.genre[0].replace(/'/g,"\\'")+"','./dossiermp3/test.mp3');");
                     laPoule.on('error',function(err){
                         console.log(err);
                     });
@@ -66,11 +66,12 @@ module.exports={
 		perserFolder();
 	},
 	getGenre:function(genre){
-		data.get1genreUrl(req.params.genre, function(err, rows)
+		/*data.get1genreUrl(req.params.genre, function(err, rows)
 		{
 			if(err){res.json(err);}
 			else{res.json(rows);}
-		});
+		});*/
+		return "./mp3/02_As_you_know.mp3"; //todo
 	}
 
 };

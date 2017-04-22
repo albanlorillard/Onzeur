@@ -1,0 +1,492 @@
+16:48:26 - silly: [HTTP] Listening on port 9000
+16:48:26 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+
+16:48:27 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:165
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+16:48:27 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:209
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+16:49:33 - silly: [HTTP] Listening on port 9001
+16:49:33 - silly: [PeerManager] Bonjour client ( 127.0.0.1:9001 ) 
+
+16:49:33 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:165
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+16:49:33 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:209
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+16:49:33 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+16:49:33 - silly: [Ping] (1/3) : client (127.0.0.1:9001)
+16:49:33 - silly: [PeerServer] Un nouveau client se connecte ! 
+16:49:33 - silly: ---- Listage de mes connections ! ---- 
+16:49:33 - silly: Pair n°0 : client (127.0.0.1:9001). Mon rôle: server. socketId:bVpOJiuhK2XOlB8pAAAA
+16:49:33 - silly: ---- Listage de mes connections ! ---- 
+16:49:33 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:bVpOJiuhK2XOlB8pAAAA
+16:49:33 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:49:33 - silly: [ping] (2/3) : client (127.0.0.1:9001)
+16:49:33 - silly: ---- Liste des routes du ping de client (127.0.0.1:9001) : ---- 
+16:49:33 - silly: 0 :serveur (127.0.0.1:9000). C'est un server
+16:49:33 - silly: [ping] Envoie via le server à client (127.0.0.1:9001)...
+16:49:33 - silly: [pong] (2/3) : from serveur ---> to: client
+16:49:33 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:49:33 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:49:33 - silly: Loop detected
+16:49:33 - silly: [pong] Reçu de serveur ( 127.0.0.1:9000 ) 
+16:49:33 - silly: [pong] (2/3) :  from serveur ---> to: client me:client
+16:49:33 - silly: [Query] (1/3) : client (127.0.0.1:9001)
+16:49:33 - silly: [pong] Ce pong m'est destiné !
+16:49:33 - silly: [pong] Déjà connecté à serveur (127.0.0.1:9000)
+16:49:33 - silly: [query] (2/3) : client (127.0.0.1:9001)
+16:49:33 - silly: ---- Liste des routes du query de client (127.0.0.1:9001) : ---- 
+16:49:33 - silly: 0 :serveur (127.0.0.1:9000). C'est un server
+16:49:33 - silly: [query] Envoie via le server à client (127.0.0.1:9001)...
+16:49:33 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:49:33 - silly: Loop detected
+16:50:12 - silly: ---- Listage de mes connections ! ---- 
+16:50:12 - silly: [PeerClient] A server disconnects 
+16:50:13 - silly: [HTTP] Listening on port 9000
+16:50:13 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+
+16:50:13 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:165
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+16:50:13 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:209
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+16:50:15 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+16:50:15 - silly: [Ping] (1/3) : client (127.0.0.1:9001)
+16:50:15 - silly: [PeerServer] Un nouveau client se connecte ! 
+16:50:15 - silly: ---- Listage de mes connections ! ---- 
+16:50:15 - silly: Pair n°0 : client (127.0.0.1:9001). Mon rôle: server. socketId:0jEQp1JR7z5yReg4AAAA
+16:50:15 - silly: ---- Listage de mes connections ! ---- 
+16:50:15 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:0jEQp1JR7z5yReg4AAAA
+16:50:15 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:50:15 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:50:15 - silly: [ping] (2/3) : client (127.0.0.1:9001)
+16:50:15 - silly: ---- Liste des routes du ping de client (127.0.0.1:9001) : ---- 
+16:50:15 - silly: 0 :serveur (127.0.0.1:9000). C'est un server
+16:50:15 - silly: [ping] Envoie via le server à client (127.0.0.1:9001)...
+16:50:15 - silly: [pong] (2/3) : from serveur ---> to: client
+16:50:15 - silly: Loop detected
+16:50:15 - silly: [pong] Reçu de serveur ( 127.0.0.1:9000 ) 
+16:50:15 - silly: [pong] (2/3) :  from serveur ---> to: client me:client
+16:50:15 - silly: [Query] (1/3) : client (127.0.0.1:9001)
+16:50:15 - silly: [pong] Ce pong m'est destiné !
+16:50:15 - silly: [pong] Déjà connecté à serveur (127.0.0.1:9000)
+16:50:15 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:50:15 - silly: [query] (2/3) : client (127.0.0.1:9001)
+16:50:15 - silly: ---- Liste des routes du query de client (127.0.0.1:9001) : ---- 
+16:50:15 - silly: 0 :serveur (127.0.0.1:9000). C'est un server
+16:50:15 - silly: [query] Envoie via le server à client (127.0.0.1:9001)...
+16:50:15 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:50:15 - silly: Loop detected
+16:50:16 - silly: ---- Listage de mes connections ! ---- 
+16:50:16 - silly: [PeerClient] A server disconnects 
+16:50:18 - silly: [HTTP] Listening on port 9000
+16:50:18 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+
+16:50:18 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:165
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+16:50:18 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:209
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+16:50:20 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+16:50:20 - silly: [Ping] (1/3) : client (127.0.0.1:9001)
+16:50:20 - silly: [PeerServer] Un nouveau client se connecte ! 
+16:50:20 - silly: ---- Listage de mes connections ! ---- 
+16:50:20 - silly: Pair n°0 : client (127.0.0.1:9001). Mon rôle: server. socketId:579oD6m-qddqXFoEAAAA
+16:50:20 - silly: ---- Listage de mes connections ! ---- 
+16:50:20 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:579oD6m-qddqXFoEAAAA
+16:50:20 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:50:20 - silly: [ping] (2/3) : client (127.0.0.1:9001)
+16:50:20 - silly: ---- Liste des routes du ping de client (127.0.0.1:9001) : ---- 
+16:50:20 - silly: 0 :serveur (127.0.0.1:9000). C'est un server
+16:50:20 - silly: [ping] Envoie via le server à client (127.0.0.1:9001)...
+16:50:20 - silly: [pong] (2/3) : from serveur ---> to: client
+16:50:20 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:50:20 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:50:20 - silly: Loop detected
+16:50:20 - silly: [pong] Reçu de serveur ( 127.0.0.1:9000 ) 
+16:50:20 - silly: [pong] (2/3) :  from serveur ---> to: client me:client
+16:50:20 - silly: [Query] (1/3) : client (127.0.0.1:9001)
+16:50:20 - silly: [pong] Ce pong m'est destiné !
+16:50:20 - silly: [pong] Déjà connecté à serveur (127.0.0.1:9000)
+16:50:20 - silly: [query] (2/3) : client (127.0.0.1:9001)
+16:50:20 - silly: ---- Liste des routes du query de client (127.0.0.1:9001) : ---- 
+16:50:20 - silly: 0 :serveur (127.0.0.1:9000). C'est un server
+16:50:20 - silly: [query] Envoie via le server à client (127.0.0.1:9001)...
+16:50:20 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:50:20 - silly: Loop detected
+16:51:42 - silly: ---- Listage de mes connections ! ---- 
+16:51:42 - silly: [PeerServer] A client disconnects 
+16:51:43 - silly: [HTTP] Listening on port 9001
+16:51:43 - silly: [PeerManager] Bonjour client ( 127.0.0.1:9001 ) 
+
+16:51:44 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:165
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+16:51:44 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:209
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+16:51:44 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+16:51:44 - silly: [Ping] (1/3) : client (127.0.0.1:9001)
+16:51:44 - silly: [PeerServer] Un nouveau client se connecte ! 
+16:51:44 - silly: ---- Listage de mes connections ! ---- 
+16:51:44 - silly: Pair n°0 : client (127.0.0.1:9001). Mon rôle: server. socketId:z2aXoZ3F35IrUMTrAAAB
+16:51:44 - silly: ---- Listage de mes connections ! ---- 
+16:51:44 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:z2aXoZ3F35IrUMTrAAAB
+16:51:44 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:51:44 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:51:44 - silly: Loop detected
+16:51:44 - silly: [ping] (2/3) : client (127.0.0.1:9001)
+16:51:44 - silly: ---- Liste des routes du ping de client (127.0.0.1:9001) : ---- 
+16:51:44 - silly: 0 :serveur (127.0.0.1:9000). C'est un server
+16:51:44 - silly: [ping] Envoie via le server à client (127.0.0.1:9001)...
+16:51:48 - silly: [pong] (2/3) : from serveur ---> to: client
+16:51:48 - silly: [pong] Reçu de serveur ( 127.0.0.1:9000 ) 
+16:51:48 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:51:48 - silly: [pong] (2/3) :  from serveur ---> to: client me:client
+16:51:48 - silly: [Query] (1/3) : client (127.0.0.1:9001)
+16:51:48 - silly: [pong] Ce pong m'est destiné !
+16:51:48 - silly: [pong] Déjà connecté à serveur (127.0.0.1:9000)
+16:51:48 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:51:48 - silly: Loop detected
+16:51:59 - silly: ---- Listage de mes connections ! ---- 
+16:51:59 - silly: [PeerClient] A server disconnects 
+16:52:0 - silly: [HTTP] Listening on port 9000
+16:52:0 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+
+16:52:0 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:165
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+16:52:1 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:209
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+16:52:1 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+16:52:1 - silly: [Ping] (1/3) : client (127.0.0.1:9001)
+16:52:1 - silly: [PeerServer] Un nouveau client se connecte ! 
+16:52:1 - silly: ---- Listage de mes connections ! ---- 
+16:52:1 - silly: Pair n°0 : client (127.0.0.1:9001). Mon rôle: server. socketId:A-peYLhQ3Ky7vlFeAAAA
+16:52:1 - silly: ---- Listage de mes connections ! ---- 
+16:52:1 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:A-peYLhQ3Ky7vlFeAAAA
+16:52:1 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:52:1 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:52:1 - silly: Loop detected
+16:52:3 - silly: [pong] Reçu de serveur ( 127.0.0.1:9000 ) 
+16:52:1 - silly: [ping] (2/3) : client (127.0.0.1:9001)
+16:52:1 - silly: ---- Liste des routes du ping de client (127.0.0.1:9001) : ---- 
+16:52:1 - silly: 0 :serveur (127.0.0.1:9000). C'est un server
+16:52:1 - silly: [ping] Envoie via le server à client (127.0.0.1:9001)...
+16:52:3 - silly: [pong] (2/3) : from serveur ---> to: client
+16:52:3 - silly: [pong] (2/3) :  from serveur ---> to: client me:client
+16:52:3 - silly: [Query] (1/3) : client (127.0.0.1:9001)
+16:52:3 - silly: [pong] Ce pong m'est destiné !
+16:52:3 - silly: [pong] Déjà connecté à serveur (127.0.0.1:9000)
+16:52:3 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:52:3 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:52:3 - silly: Loop detected
+16:52:12 - silly: ---- Listage de mes connections ! ---- 
+16:52:12 - silly: [PeerClient] A server disconnects 
+16:52:53 - silly: [HTTP] Listening on port 9000
+16:52:53 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+
+16:52:53 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:165
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+16:52:53 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:209
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+16:52:57 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+16:52:57 - silly: [Ping] (1/3) : client (127.0.0.1:9001)
+16:52:57 - silly: [PeerServer] Un nouveau client se connecte ! 
+16:52:57 - silly: ---- Listage de mes connections ! ---- 
+16:52:57 - silly: Pair n°0 : client (127.0.0.1:9001). Mon rôle: server. socketId:BIebuSpyQ004MK2MAAAA
+16:52:57 - silly: ---- Listage de mes connections ! ---- 
+16:52:57 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:BIebuSpyQ004MK2MAAAA
+16:52:57 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:52:57 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:52:57 - silly: Loop detected
+16:52:57 - silly: [ping] (2/3) : client (127.0.0.1:9001)
+16:52:57 - silly: ---- Liste des routes du ping de client (127.0.0.1:9001) : ---- 
+16:52:57 - silly: 0 :serveur (127.0.0.1:9000). C'est un server
+16:52:57 - silly: [ping] Envoie via le server à client (127.0.0.1:9001)...
+16:52:58 - silly: [pong] (2/3) : from serveur ---> to: client
+16:52:58 - silly: [pong] Reçu de serveur ( 127.0.0.1:9000 ) 
+16:52:58 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:52:58 - silly: [pong] (2/3) :  from serveur ---> to: client me:client
+16:52:58 - silly: [Query] (1/3) : client (127.0.0.1:9001)
+16:52:58 - silly: [pong] Ce pong m'est destiné !
+16:52:58 - silly: [pong] Déjà connecté à serveur (127.0.0.1:9000)
+16:52:58 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:52:58 - silly: Loop detected
+16:53:1 - silly: ---- Listage de mes connections ! ---- 
+16:53:1 - silly: [PeerClient] A server disconnects 
+16:53:20 - silly: [HTTP] Listening on port 9000
+16:53:20 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+
+16:53:20 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:165
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+16:53:20 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:209
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+16:53:23 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+16:53:23 - silly: [Ping] (1/3) : client (127.0.0.1:9001)
+16:53:23 - silly: [PeerServer] Un nouveau client se connecte ! 
+16:53:23 - silly: ---- Listage de mes connections ! ---- 
+16:53:23 - silly: Pair n°0 : client (127.0.0.1:9001). Mon rôle: server. socketId:acbYrkTFHVm6Wg3NAAAA
+16:53:23 - silly: ---- Listage de mes connections ! ---- 
+16:53:23 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:acbYrkTFHVm6Wg3NAAAA
+16:53:23 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:53:23 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:53:23 - silly: Loop detected
+16:53:23 - silly: [ping] (2/3) : client (127.0.0.1:9001)
+16:53:23 - silly: ---- Liste des routes du ping de client (127.0.0.1:9001) : ---- 
+16:53:23 - silly: 0 :serveur (127.0.0.1:9000). C'est un server
+16:53:23 - silly: [ping] Envoie via le server à client (127.0.0.1:9001)...
+16:53:27 - silly: [pong] (2/3) : from serveur ---> to: client
+16:53:27 - silly: [pong] Reçu de serveur ( 127.0.0.1:9000 ) 
+16:53:27 - silly: [pong] (2/3) :  from serveur ---> to: client me:client
+16:53:27 - silly: [Query] (1/3) : client (127.0.0.1:9001)
+16:53:27 - silly: [pong] Ce pong m'est destiné !
+16:53:27 - silly: [pong] Déjà connecté à serveur (127.0.0.1:9000)
+16:53:27 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:53:27 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:53:27 - silly: Loop detected
+16:53:29 - silly: ---- Listage de mes connections ! ---- 
+16:53:29 - silly: [PeerClient] A server disconnects 
+16:53:37 - silly: [HTTP] Listening on port 9000
+16:53:37 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+
+16:53:37 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:165
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+16:53:37 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:209
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+16:53:41 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+16:53:41 - silly: [Ping] (1/3) : client (127.0.0.1:9001)
+16:53:41 - silly: [PeerServer] Un nouveau client se connecte ! 
+16:53:41 - silly: ---- Listage de mes connections ! ---- 
+16:53:41 - silly: Pair n°0 : client (127.0.0.1:9001). Mon rôle: server. socketId:Fg6VrtZbSiipP5e0AAAA
+16:53:41 - silly: ---- Listage de mes connections ! ---- 
+16:53:41 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:Fg6VrtZbSiipP5e0AAAA
+16:53:41 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:53:41 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:53:41 - silly: [ping] (2/3) : client (127.0.0.1:9001)
+16:53:41 - silly: ---- Liste des routes du ping de client (127.0.0.1:9001) : ---- 
+16:53:41 - silly: 0 :serveur (127.0.0.1:9000). C'est un server
+16:53:41 - silly: [ping] Envoie via le server à client (127.0.0.1:9001)...
+16:53:41 - silly: [pong] (2/3) : from serveur ---> to: client
+16:53:41 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:53:41 - silly: Loop detected
+16:53:41 - silly: [pong] Reçu de serveur ( 127.0.0.1:9000 ) 
+16:53:41 - silly: [pong] (2/3) :  from serveur ---> to: client me:client
+16:53:41 - silly: [Query] (1/3) : client (127.0.0.1:9001)
+16:53:41 - silly: [pong] Ce pong m'est destiné !
+16:53:41 - silly: [pong] Déjà connecté à serveur (127.0.0.1:9000)
+16:53:41 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:53:41 - silly: Loop detected
+16:53:42 - silly: ---- Listage de mes connections ! ---- 
+16:53:42 - silly: [PeerClient] A server disconnects 
+16:54:25 - silly: [HTTP] Listening on port 9000
+16:54:25 - silly: [PeerManager] Bonjour serveur ( 127.0.0.1:9000 ) 
+
+16:54:25 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:165
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at Stream.<anonymous> (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:69:13)
+    at Stream.g (events.js:286:16)
+    at emitOne (events.js:96:13)
+16:54:25 - error:  TypeError: Cannot read property 'replace' of undefined
+    at /home/alban/WebstormProjects/Onzeur/src/mp3Manager.js:38:209
+    at done (/home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/index.js:109:7)
+    at /home/alban/WebstormProjects/Onzeur/node_modules/musicmetadata/lib/id3v2.js:42:16
+    at emitData (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:419:20)
+    at Stream.dataListener (/home/alban/WebstormProjects/Onzeur/node_modules/strtok2/lib/index.js:482:11)
+    at emitOne (events.js:96:13)
+    at Stream.emit (events.js:188:7)
+    at drain (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:36:16)
+    at Stream.stream.queue.stream.push (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:45:5)
+    at Stream.write (/home/alban/WebstormProjects/Onzeur/node_modules/through/index.js:14:43)
+16:54:26 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+16:54:26 - silly: [Ping] (1/3) : client (127.0.0.1:9001)
+16:54:26 - silly: [PeerServer] Un nouveau client se connecte ! 
+16:54:26 - silly: ---- Listage de mes connections ! ---- 
+16:54:26 - silly: Pair n°0 : client (127.0.0.1:9001). Mon rôle: server. socketId:gFYpYlRIWIm_XKQ7AAAA
+16:54:26 - silly: ---- Listage de mes connections ! ---- 
+16:54:26 - silly: Pair n°0 : serveur (127.0.0.1:9000). Mon rôle: client. socketId:gFYpYlRIWIm_XKQ7AAAA
+16:54:26 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:54:26 - silly: [ping] (2/3) : client (127.0.0.1:9001)
+16:54:26 - silly: ---- Liste des routes du ping de client (127.0.0.1:9001) : ---- 
+16:54:26 - silly: 0 :serveur (127.0.0.1:9000). C'est un server
+16:54:26 - silly: [ping] Envoie via le server à client (127.0.0.1:9001)...
+16:54:26 - silly: [pong] (2/3) : from serveur ---> to: client
+16:54:26 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:54:26 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:54:26 - silly: Loop detected
+16:54:26 - silly: [pong] Reçu de serveur ( 127.0.0.1:9000 ) 
+16:54:26 - silly: [pong] (2/3) :  from serveur ---> to: client me:client
+16:54:26 - silly: [Query] (1/3) : client (127.0.0.1:9001)
+16:54:26 - silly: [pong] Ce pong m'est destiné !
+16:54:26 - silly: [pong] Déjà connecté à serveur (127.0.0.1:9000)
+16:54:26 - silly: [PING] Reçu de client ( 127.0.0.1:9001 ) 
+16:54:26 - silly: Loop detected
+16:54:26 - silly: [query] (2/3) : client (127.0.0.1:9001)
+16:54:26 - silly: ---- Liste des routes du query de client (127.0.0.1:9001) : ---- 
+16:54:26 - silly: 0 :serveur (127.0.0.1:9000). C'est un server
+16:54:26 - silly: [query] Envoie via le server à client (127.0.0.1:9001)...
+16:54:27 - silly: [QUERYHIT] 127.0.0.1:9001 demande de la musique: Rock
+16:54:27 - silly: Sockets connected
+16:54:27 - silly: send

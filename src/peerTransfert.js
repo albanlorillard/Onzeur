@@ -3,11 +3,11 @@ var fs = require('fs');
 var logger = require ('../logger');
 var io = require( 'socket.io-client' );
 
-function peerTransfert(ipDest, myId) {
+function peerTransfert(ipDest, myId, music) {
     this.ipDest = ipDest;
     this.myId = myId;
 
-    var socket = io.connect('http://' + data.from);
+    var socket = io.connect('http://' + ipDest);
 
     socket.on("connect", function()
     {
@@ -29,3 +29,5 @@ function peerTransfert(ipDest, myId) {
     });
 
 }
+
+module.exports = peerTransfert;

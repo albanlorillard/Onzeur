@@ -1,7 +1,24 @@
 module.exports = {
     // P2P CONFIG
-    maxTTL:3,
-    maxConnectionsPerPeer:5,
+    maxTTL:3,                   //Max Length of the Gnutella TTL
+    maxConnectionsPerPeer:5,    //Max connection per Gnutella Peers
+
+    // Mp3 Manager
+    db:{"host": "127.0.0.1",    //Configuration of MySQL
+    "user": "root",
+    "password": "mixage53",
+    "database": "musiconzeur"},
+
+    // Flux Manager
+    shoutcastConfig:{               // Configuration of Radio Information
+        name: 'Onzeur Radio Station',
+        genre: 'all',
+        url: 'https://github.com/albanlorillard/Onzeur',
+        notice: 'La radio de la petite Jaja de Polytech'
+    },
+    shoutcastPort:7000,             // Flux of the radio
+
+
 
     // LOGS
     LOG_CONSOLE: true,              // If True : Enable logs in the local console

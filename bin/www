@@ -100,7 +100,7 @@ function onListening() {
    * Run PeerManager !
    */
   peerManager.start(server, addr, addr.port);
-  fluxManager.start(server);
+ // fluxManager.start(server);
 }
 
 

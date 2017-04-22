@@ -2,6 +2,8 @@ var logger = require('../logger');
 var P2Pconfig = require('../config');
 var peerClient = require('./peerClient.js');
 var peers = [];
+var mp3Manager = require('./mp3Manager');
+var peerTransfert = require('./peerTransfert');
 
 function showPeer()
 {
@@ -136,11 +138,11 @@ module.exports={
                     }); // We subscribe this node in the road used by the token
 
                     //Log
-                    logger.silly("[Ping] ("+ping.currentTTL+"/"+ping.maxTTL+") : "+ping.from.pseudo+ ' ('+ping.from.addr+')');
+                    logger.silly("["+ping.subject+"] ("+ping.currentTTL+"/"+ping.maxTTL+") : "+ping.from.pseudo+ ' ('+ping.from.addr+')');
 
                     if (data.road)
                     {
-                        logger.silly("---- Liste des routes du ping de "+ping.from.pseudo+" ("+ping.from.addr+") : ---- ");
+                        logger.silly("---- Liste des routes du "+ping.subject+" de "+ping.from.pseudo+" ("+ping.from.addr+") : ---- ");
                         for (var r=0; r< ping.road.length ; r++)
                         {
                             logger.silly(r+" :"+data.road[r].pseudo+' ('+data.road[r].addr+'). C\'est un '+data.road[r].myRole);
@@ -150,29 +152,15 @@ module.exports={
 
 
 
-                    // PING AGAIN
+                    // PING/Query AGAIN
                     for (var p=0; p<peers.length;p++) //For each Peers that i'm connected with
                     {
                         for (var r=0; r< data.road.length ; r++) //For each Road of the token
                         {
                             if (data.road[r].addr != peers[p].id.addr)
                             {
-                                // Envoie côté serveur
-                                /*if (peers[p].myRole == "server")
-                                {
-                                    logger.silly("[Ping] Envoie via le serveur à "+peers[p].pseudo+" ("+peers[p].addr +")...");
-                                    socket.broadcast.to(peers[p].id).emit('Ping', ping);
-                                }
-                                else if (peers[p].myRole == "client")
-                                {*/
-                                    logger.silly("[Ping] Envoie via le "+peers[p].myRole+" à "+peers[p].id.pseudo+" ("+peers[p].id.addr +")...");
+                                    logger.silly("["+ping.subject+"] Envoie via le "+peers[p].myRole+" à "+peers[p].id.pseudo+" ("+peers[p].id.addr +")...");
                                     peers[p].socket.emit("Ping", ping);
-                                /*}
-                                else
-                                {
-                                    logger.silly("pb. Role non reconnu.");
-                                }*/
-                                //peers[p].socket.emit('Ping', ping);
                             }
                         }
                     }
@@ -203,15 +191,19 @@ module.exports={
                     else
                         pong.message = "available";
 
-
-                        logger.silly("[Pong] ("+pong.currentTTL+"/"+pong.maxTTL+") : from "+pong.from.pseudo+" ---> to: "+pong.to.pseudo);
-                    //todo:verifier si 5/5 paires
+                    logger.silly("["+pong.subject+"] ("+pong.currentTTL+"/"+pong.maxTTL+") : from "+pong.from.pseudo+" ---> to: "+pong.to.pseudo);
                     socket.emit('Pong', pong); // send pong to my client
-                }
-                else if (data.suject == "queryHit")
-                {
 
+                    //todo:verifier si 5/5 paires
                 }
+                else if (data.subject == "query")
+                {
+                    data.message.genre = "Rock";//todo
+                    logger.silly("[QUERYHIT] "+data.from.addr+ " demande de la musique: "+data.message.genre);
+                    var music = mp3Manager.getGenre(data.message.genre);
+                    var socketFile = new peerTransfert(data.from.addr, myId, music);
+                }
+
             }
     },
 
