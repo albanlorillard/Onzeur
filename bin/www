@@ -7,8 +7,8 @@
 var app = require('../app');
 var debug = require('debug')('onzeur:server');
 var http = require('http');
-
-var peerServer = require('./peerServer');
+var mp3Manager = require('../src/mp3Manager.js');
+//var peerServer = require('./peerServer');
 
 /**
  * Get port from environment and store in Express.
@@ -96,4 +96,4 @@ function onListening() {
 /**
  * Run PeerServer !
  */
-peerServer.start();
+//peerServer.start();
