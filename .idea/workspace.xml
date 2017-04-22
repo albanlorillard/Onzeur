@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7e31716-4f5d-4e1b-9b33-966cb53af86d" name="Default" comment="" />
+    <list default="true" id="e7e31716-4f5d-4e1b-9b33-966cb53af86d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dossiermp3/url1.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dossiermp3/url2.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dossiermp3/url3.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/02_As_you_know.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/03 - Helaku - Budub 1.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/ANtarcticbreeze_-_Cheerful_Life___Indie_Rock.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/ANtarcticbreeze_-_Happy_Children.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/A_Virtual_Friend_-_Paris_La_Nuit.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/BaiTaiga_-_Island.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/Cory_Feigen_-_Castles_In_The_Sky.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/Dexter_Britain_-_01_-_The_Time_To_Run_Finale.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/Heifervescent_-_Hearts_and_Minds.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/Orent - Strange Forest.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/Sean_Brookes_-_You.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/TheSpinWires-TheSpinWiresSampler-04GirlsLikeYou.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/The_Dada_Weatherman_-_Free_Your_Mind.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/The_Dada_Weatherman_-_Lost_To_Me.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/This_Public_Life_-_Capulate.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/Tyler_Adam_-_We_Used_To__Original_Mix_.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mp3/soundshrim_-_Ambient_Background.mp3" afterPath="" />
+    </list>
     <ignored path="Onzeur.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -257,20 +278,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mp3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Onzeur" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Onzeur" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -421,12 +428,12 @@
       <workItem from="1491928033225" duration="824000" />
       <workItem from="1492090001482" duration="8704000" />
       <workItem from="1492696739840" duration="41756000" />
-      <workItem from="1492866375706" duration="4149000" />
+      <workItem from="1492866375706" duration="4220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192777000" />
+    <option name="totallyTimeSpent" value="192848000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,7 +448,7 @@
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25111774" sideWeight="0.7714286" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25111774" sideWeight="0.7714286" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32888147" sideWeight="0.49701938" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41569284" sideWeight="0.36512667" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -449,7 +456,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32888147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26711187" sideWeight="0.45827124" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33222038" sideWeight="0.4910581" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33222038" sideWeight="0.4910581" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25111774" sideWeight="0.22857143" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4390651" sideWeight="0.63487333" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
