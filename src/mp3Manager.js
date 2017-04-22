@@ -1,3 +1,4 @@
+
 /**
  * Created by alban on 20/03/17.
  //console.log("Démarrage de mp3 Manager");
@@ -71,3 +72,19 @@ CREATE TABLE `musiconzeur`.`listmp3` (
   PRIMARY KEY (`title`));
 
 });*/
+
+
+module.exports={
+	start:function() {
+		perserFolder();
+	},
+	getGenre:function(genre){
+		data.get1genreUrl(req.params.genre, function(err, rows)
+		{
+			if(err){res.json(err);}
+			else{res.json(rows);}
+		});
+	}
+
+};
+>>>>>>> 27c631c3ec1fa9dc2bbca5da68528dc268bd84a7

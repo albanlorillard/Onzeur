@@ -7,16 +7,22 @@
 var app = require('../app');
 var debug = require('debug')('onzeur:server');
 var http = require('http');
-var mp3Manager = require('../src/mp3Manager.js');
+
 //var peerServer = require('./peerServer');
+var peerManager = require('../src/peerManager.js');
+var mp3Manager = require('../src/mp3Manager.js');
+var fluxManager = require('../src/fluxManager.js');
+var logger = require('../logger.js');
 
 /**
  * Get port from environment and store in Express.
  */
+var portC = 3000;
+if (process.argv[2] != undefined)
+  portC = process.argv[2];
 
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || portC);
 app.set('port', port);
-
 /**
  * Create HTTP server.
  */
@@ -27,7 +33,7 @@ var server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port);
+server.listen(port, "127.0.0.1");
 
 server.on('error', onError);
 server.on('listening', onListening);
@@ -69,11 +75,11 @@ function onError(error) {
   // handle specific listen errors with friendly messages
   switch (error.code) {
     case 'EACCES':
-      console.error("[HTTP]"+bind + ' requires elevated privileges');
+      logger.error("[HTTP]"+bind + ' requires elevated privileges');
       process.exit(1);
       break;
     case 'EADDRINUSE':
-      console.error("[HTTP]"+bind + ' is already in use');
+      logger.error("[HTTP]"+bind + ' is already in use');
       process.exit(1);
       break;
     default:
@@ -90,10 +96,27 @@ function onListening() {
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
-  console.log('[HTTP] Listening on ' + bind);
+  logger.silly('[HTTP] Listening on ' + bind);
+
+  /**
+   * Run PeerManager !
+   */
+  peerManager.start(server, addr, addr.port);
+  fluxManager.start(server);
 }
 
+
 /**
- * Run PeerServer !
+ * Mp3 Manager
  */
+<<<<<<< HEAD
 //peerServer.start();
+=======
+mp3Manager.start();
+
+/**
+ * flux Manager
+ */
+
+module.exports = server;
+>>>>>>> 27c631c3ec1fa9dc2bbca5da68528dc268bd84a7

@@ -11,9 +11,25 @@
     "debug": "~2.6.0",
     "ejs": "~2.5.5",
     "express": "~4.14.1",
+    "express-winston": "^2.3.0",
+    "fs": "0.0.1-security",
     "morgan": "~1.7.0",
+<<<<<<< HEAD
+=======
+    "musicmetadata": "^2.0.5",
+>>>>>>> 27c631c3ec1fa9dc2bbca5da68528dc268bd84a7
     "mysql": "^2.13.0",
     "peer": "^0.2.8",
-    "serve-favicon": "~2.3.2"
+    "queuestream": "0.0.5",
+    "serve-favicon": "~2.3.2",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3",
+    "socket.io-p2p": "^2.2.0",
+    "socket.io-p2p-server": "^1.2.0",
+    "socketio-file-upload": "^0.6.0",
+    "stream": "0.0.2",
+    "util": "^0.10.3",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
   }
 }

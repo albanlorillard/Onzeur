@@ -1,0 +1,170 @@
+15:43:15 - silly: peer[n]:addr/id/myRole
+15:43:15 - silly: peer[0]:127.0.0.1:58989/ImU3-PcYlvxutIFkAAAA/server
+15:43:15 - silly: peer[1]:127.0.0.1:9001/ImU3-PcYlvxutIFkAAAA/lo
+15:43:15 - silly: [PeerClient] A server disconnects 
+15:44:30 - silly: [HTTP] Listening on port 9000
+15:44:30 - silly: [PeerManager] Hello : serveur
+
+15:44:30 - silly: [PeerServer] New client connected !
+15:44:30 - silly: peer[n]:addr/id/myRole
+15:44:30 - silly: peer[0]:127.0.0.1:33382/VqiqBjgHgyhi-d-XAAAA/server
+15:44:30 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+15:44:30 - silly: peer[n]:addr/id/myRole
+15:44:30 - silly: peer[0]:127.0.0.1:33382/VqiqBjgHgyhi-d-XAAAA/server
+15:44:30 - silly: peer[1]:127.0.0.1:9000/VqiqBjgHgyhi-d-XAAAA/lo
+15:44:34 - silly: [HTTP] Listening on port 9001
+15:44:35 - silly: [PeerServer] New client connected !
+15:44:35 - silly: peer[n]:addr/id/myRole
+15:44:35 - silly: peer[0]:127.0.0.1:33382/VqiqBjgHgyhi-d-XAAAA/server
+15:44:35 - silly: peer[1]:127.0.0.1:9000/VqiqBjgHgyhi-d-XAAAA/lo
+15:44:35 - silly: peer[2]:127.0.0.1:33390/0NylGV38NA68bdqKAAAB/server
+15:44:34 - silly: [PeerManager] Hello : client
+
+15:44:35 - silly: [PeerServer] New client connected !
+15:44:35 - silly: peer[n]:addr/id/myRole
+15:44:35 - silly: peer[0]:127.0.0.1:11208/RVOaZhDMQz6hEk3wAAAA/server
+15:44:35 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+15:44:35 - silly: peer[n]:addr/id/myRole
+15:44:35 - silly: peer[0]:127.0.0.1:11208/RVOaZhDMQz6hEk3wAAAA/server
+15:44:35 - silly: peer[1]:127.0.0.1:9000/0NylGV38NA68bdqKAAAB/client
+15:44:35 - silly: [PING 1/3] : client
+15:44:35 - silly: [PeerClient] Connection to 127.0.0.1:9001 ... OK !
+15:44:35 - silly: peer[n]:addr/id/myRole
+15:44:35 - silly: peer[0]:127.0.0.1:11208/RVOaZhDMQz6hEk3wAAAA/server
+15:44:35 - silly: peer[1]:127.0.0.1:9000/0NylGV38NA68bdqKAAAB/client
+15:44:35 - silly: peer[2]:127.0.0.1:9001/RVOaZhDMQz6hEk3wAAAA/lo
+15:44:35 - silly: [PING] Reçu FROM undefined
+15:44:35 - silly: [Ping] TTL:2/3. From:127.0.0.1:9001 to:
+15:44:35 - silly: Road 0 :serveur
+15:44:35 - silly: [PING 2/3] : client
+15:44:35 - silly: [PING] Envoie à 127.0.0.1:33382...
+15:44:35 - silly: [PONG 2/3] : undefined
+15:44:35 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9001 message:127.0.0.1:9000
+15:44:35 - silly: [PONG] Ce pong m'est destiné !
+15:44:35 - silly: [PONG] Déjà connecté à lui.
+15:44:35 - silly: [PING 2/3] : REçU de 127.0.0.1:9001 dest :  message:[object Object]
+15:44:35 - silly: [PONG 3/3] : dest final: 127.0.0.1:9000
+15:44:35 - silly: [PONG] Reçu FROM undefined
+15:44:35 - silly: On me demande à la barre ! Genre:
+15:44:35 - silly: On me demande à la barre ! Genre:
+15:44:37 - silly: [HTTP] Listening on port 9003
+15:44:37 - silly: [PeerServer] New client connected !
+15:44:37 - silly: peer[n]:addr/id/myRole
+15:44:37 - silly: peer[0]:127.0.0.1:11208/RVOaZhDMQz6hEk3wAAAA/server
+15:44:37 - silly: peer[1]:127.0.0.1:9000/0NylGV38NA68bdqKAAAB/client
+15:44:37 - silly: peer[2]:127.0.0.1:9001/RVOaZhDMQz6hEk3wAAAA/lo
+15:44:37 - silly: peer[3]:127.0.0.1:11224/DBjU_lPJp7qXi3sMAAAB/server
+15:44:37 - silly: [PeerManager] Hello : client3
+
+15:44:37 - silly: [PeerServer] New client connected !
+15:44:37 - silly: peer[n]:addr/id/myRole
+15:44:37 - silly: peer[0]:127.0.0.1:51780/eINRFG9SntMm-Z8lAAAA/server
+15:44:37 - silly: [PeerClient] Connection to 127.0.0.1:9001 ... OK !
+15:44:37 - silly: peer[n]:addr/id/myRole
+15:44:37 - silly: peer[0]:127.0.0.1:51780/eINRFG9SntMm-Z8lAAAA/server
+15:44:37 - silly: peer[1]:127.0.0.1:9001/DBjU_lPJp7qXi3sMAAAB/client
+15:44:37 - silly: [PING 1/3] : client3
+15:44:37 - silly: [PeerClient] Connection to 127.0.0.1:9003 ... OK !
+15:44:37 - silly: peer[n]:addr/id/myRole
+15:44:37 - silly: peer[0]:127.0.0.1:51780/eINRFG9SntMm-Z8lAAAA/server
+15:44:37 - silly: peer[1]:127.0.0.1:9001/DBjU_lPJp7qXi3sMAAAB/client
+15:44:37 - silly: peer[2]:127.0.0.1:9003/eINRFG9SntMm-Z8lAAAA/lo
+15:44:37 - silly: [PING] Reçu FROM undefined
+15:44:37 - silly: [Ping] TTL:2/3. From:127.0.0.1:9003 to:
+15:44:37 - silly: Road 0 :client
+15:44:37 - silly: [PING 2/3] : client3
+15:44:37 - silly: [PING] Envoie à 127.0.0.1:11208...
+15:44:37 - silly: [PING 2/3] : client3
+15:44:37 - silly: [PING] Envoie à 127.0.0.1:9000...
+15:44:37 - silly: [PONG 2/3] : undefined
+15:44:37 - silly: [PONG 2/3] : REçU de 127.0.0.1:9001 dest : 127.0.0.1:9003 message:127.0.0.1:9001
+15:44:37 - silly: [PING 2/3] : REçU de 127.0.0.1:9003 dest :  message:[object Object]
+15:44:37 - silly: [PONG 3/3] : dest final: 127.0.0.1:9001
+15:44:37 - silly: [PONG] Ce pong m'est destiné !
+15:44:37 - silly: [PONG] Déjà connecté à lui.
+15:44:37 - silly: [PONG] Reçu FROM undefined
+15:44:37 - silly: On me demande à la barre ! Genre:
+15:44:37 - silly: On me demande à la barre ! Genre:
+15:44:39 - silly: [HTTP] Listening on port 9002
+15:44:39 - silly: [PeerServer] New client connected !
+15:44:39 - silly: peer[n]:addr/id/myRole
+15:44:39 - silly: peer[0]:127.0.0.1:33382/VqiqBjgHgyhi-d-XAAAA/server
+15:44:39 - silly: peer[1]:127.0.0.1:9000/VqiqBjgHgyhi-d-XAAAA/lo
+15:44:39 - silly: peer[2]:127.0.0.1:33390/0NylGV38NA68bdqKAAAB/server
+15:44:39 - silly: peer[3]:127.0.0.1:33426/RJZmckhhzwlXwPUYAAAC/server
+15:44:39 - silly: [PeerManager] Hello : client2
+
+15:44:39 - silly: [PeerServer] New client connected !
+15:44:39 - silly: peer[n]:addr/id/myRole
+15:44:39 - silly: peer[0]:127.0.0.1:15894/NhuAEH6e2KWdPgJFAAAA/server
+15:44:39 - silly: [PeerClient] Connection to 127.0.0.1:9000 ... OK !
+15:44:39 - silly: peer[n]:addr/id/myRole
+15:44:39 - silly: peer[0]:127.0.0.1:15894/NhuAEH6e2KWdPgJFAAAA/server
+15:44:39 - silly: peer[1]:127.0.0.1:9000/RJZmckhhzwlXwPUYAAAC/client
+15:44:39 - silly: [PING 1/3] : client2
+15:44:39 - silly: [PeerClient] Connection to 127.0.0.1:9002 ... OK !
+15:44:39 - silly: peer[n]:addr/id/myRole
+15:44:39 - silly: peer[0]:127.0.0.1:15894/NhuAEH6e2KWdPgJFAAAA/server
+15:44:39 - silly: peer[1]:127.0.0.1:9000/RJZmckhhzwlXwPUYAAAC/client
+15:44:39 - silly: peer[2]:127.0.0.1:9002/NhuAEH6e2KWdPgJFAAAA/lo
+15:44:39 - silly: [PING] Reçu FROM undefined
+15:44:39 - silly: [PING 2/3] : REçU de 127.0.0.1:9002 dest :  message:[object Object]
+15:44:39 - silly: [Ping] TTL:2/3. From:127.0.0.1:9002 to:
+15:44:39 - silly: Road 0 :serveur
+15:44:39 - silly: [PING 2/3] : client2
+15:44:39 - silly: [PING] Envoie à 127.0.0.1:33382...
+15:44:39 - silly: [PING 2/3] : client2
+15:44:39 - silly: [PING] Envoie à 127.0.0.1:33390...
+15:44:39 - silly: [PONG 2/3] : undefined
+15:44:39 - silly: [PONG 3/3] : dest final: 127.0.0.1:9001
+15:44:39 - silly: [PONG 2/3] : REçU de 127.0.0.1:9000 dest : 127.0.0.1:9002 message:127.0.0.1:9000
+15:44:39 - silly: [PING 2/3] : REçU de 127.0.0.1:9002 dest :  message:[object Object]
+15:44:39 - silly: [PONG 3/3] : dest final: 127.0.0.1:9000
+15:44:39 - silly: [PONG] Ce pong m'est destiné !
+15:44:39 - silly: [PONG] Déjà connecté à lui.
+15:44:39 - silly: On me demande à la barre ! Genre:
+15:44:39 - silly: [PONG] Reçu FROM undefined
+15:44:39 - silly: [PONG] Reçu FROM undefined
+15:44:39 - silly: On me demande à la barre ! Genre:
+15:44:39 - silly: On me demande à la barre ! Genre:
+15:44:39 - silly: On me demande à la barre ! Genre:
+15:44:39 - silly: On me demande à la barre ! Genre:
+15:44:39 - silly: On me demande à la barre ! Genre:
+15:44:41 - silly: [HTTP] Listening on port 9004
+15:44:41 - silly: [PeerServer] New client connected !
+15:44:41 - silly: peer[n]:addr/id/myRole
+15:44:41 - silly: peer[0]:127.0.0.1:15894/NhuAEH6e2KWdPgJFAAAA/server
+15:44:41 - silly: peer[1]:127.0.0.1:9000/RJZmckhhzwlXwPUYAAAC/client
+15:44:41 - silly: peer[2]:127.0.0.1:9002/NhuAEH6e2KWdPgJFAAAA/lo
+15:44:41 - silly: peer[3]:127.0.0.1:15910/LqYpOIFiedKUDsuHAAAB/server
+15:44:41 - silly: [PeerManager] Hello : client4
+
+15:44:41 - silly: [PeerServer] New client connected !
+15:44:41 - silly: peer[n]:addr/id/myRole
+15:44:41 - silly: peer[0]:127.0.0.1:56862/azWbPaVYP-W6r5aXAAAA/server
+15:44:41 - silly: [PeerClient] Connection to 127.0.0.1:9002 ... OK !
+15:44:41 - silly: peer[n]:addr/id/myRole
+15:44:41 - silly: peer[0]:127.0.0.1:56862/azWbPaVYP-W6r5aXAAAA/server
+15:44:41 - silly: peer[1]:127.0.0.1:9002/LqYpOIFiedKUDsuHAAAB/client
+15:44:41 - silly: [PING 1/3] : client4
+15:44:41 - silly: [PeerClient] Connection to 127.0.0.1:9004 ... OK !
+15:44:41 - silly: peer[n]:addr/id/myRole
+15:44:41 - silly: peer[0]:127.0.0.1:56862/azWbPaVYP-W6r5aXAAAA/server
+15:44:41 - silly: peer[1]:127.0.0.1:9002/LqYpOIFiedKUDsuHAAAB/client
+15:44:41 - silly: peer[2]:127.0.0.1:9004/azWbPaVYP-W6r5aXAAAA/lo
+15:44:41 - silly: [PING] Reçu FROM undefined
+15:44:41 - silly: [Ping] TTL:2/3. From:127.0.0.1:9004 to:
+15:44:41 - silly: Road 0 :client2
+15:44:41 - silly: [PING 2/3] : client4
+15:44:41 - silly: [PING] Envoie à 127.0.0.1:15894...
+15:44:41 - silly: [PING 2/3] : client4
+15:44:41 - silly: [PING] Envoie à 127.0.0.1:9000...
+15:44:41 - silly: [PONG 2/3] : undefined
+15:44:41 - silly: [PONG 2/3] : REçU de 127.0.0.1:9002 dest : 127.0.0.1:9004 message:127.0.0.1:9002
+15:44:41 - silly: [PING 2/3] : REçU de 127.0.0.1:9004 dest :  message:[object Object]
+15:44:41 - silly: [PONG 3/3] : dest final: 127.0.0.1:9002
+15:44:41 - silly: [PONG] Ce pong m'est destiné !
+15:44:41 - silly: [PONG] Déjà connecté à lui.
+15:44:41 - silly: [PONG] Reçu FROM undefined
+15:44:41 - silly: On me demande à la barre ! Genre:
+15:44:41 - silly: On me demande à la barre ! Genre:

@@ -22,3 +22,10 @@ peer.on('open', function(id) {
         document.getElementById("peers").innerHTML = content;
     });
 });
+
+// LOG Writter
+function writeLog(IDSender, IDReceipter, msg)
+{
+    var log = document.getElementById("log").innerHTML;
+    log = "<tr><td>date</td>"+IDSender+"<td></td>"+IDReceipter+"<td></td><td>"+msg+"</td></tr>" + log;
+}

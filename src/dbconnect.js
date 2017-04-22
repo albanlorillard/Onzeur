@@ -1,3 +1,4 @@
+
 /**
  * Created by alban on 28/01/17.
  */
@@ -26,7 +27,7 @@ pool.on('enqueue', function () {
 module.exports=pool;
 
 
-/*var connection;
+var connection;
 function handleDisconnect() {
     connection = mysql.createConnection(configDB); // Recreate the connection, since
                                                     // the old one cannot be reused.
@@ -57,6 +58,7 @@ function handleDisconnect() {
 
 handleDisconnect();
  module.exports=connection;
-*/
 
 
+
+>>>>>>> 27c631c3ec1fa9dc2bbca5da68528dc268bd84a7
