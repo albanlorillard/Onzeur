@@ -35,7 +35,7 @@ function perserFolder()
                 if (err) throw err;
                 try
                 {
-                        var laPoule= db.query("insert into listmp3 (title, artist,genre,url) values ('"+metadata.title.replace(/'/g,"\\'")+"', '"+metadata.artist[0].replace(/'/g,"\\'")+"','"+metadata.genre[0].replace(/'/g,"\\'")+"','./dossiermp3/test.mp3');");
+                        var laPoule= db.query("insert into listmp3 (title, artist,genre,url) values ('"+metadata.title.replace(/'/g,"\\'")+"', '"+metadata.artist[0].replace(/'/g,"\\'")+"','"+metadata.genre[0].replace(/'/g,"\\'")+"','./mp3/"+items[glob]+"');");
                     laPoule.on('error',function(err){
                         console.log(err);
                     });
