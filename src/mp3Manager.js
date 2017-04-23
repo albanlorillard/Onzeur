@@ -35,7 +35,7 @@ function perserFolder()
                 if (err) throw err;
                 try
                 {
-                        var laPoule= db.query("insert into listmp3 (title, artist,genre,url) values ('"+metadata.title.replace(/'/g,"\\'")+"', '"+metadata.artist[0].replace(/'/g,"\\'")+"','"+metadata.genre[0].replace(/'/g,"\\'")+"','./dossiermp3/test.mp3');");
+                        var laPoule= db.query("insert into listmp3 (title, artist,genre,url) values ('"+metadata.title.replace(/'/g,"\\'")+"', '"+metadata.artist[0].replace(/'/g,"\\'")+"','"+metadata.genre[0].replace(/'/g,"\\'")+"','./mp3/"+items[glob]+"');");
                     laPoule.on('error',function(err){
                         console.log(err);
                     });
@@ -75,3 +75,12 @@ module.exports={
 	}
 
 };
+/*
+CREATE TABLE if not exists`musiconzeur`.`listmp3` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `title` VARCHAR(45) NULL,
+  `artist` VARCHAR(45) NULL,
+  `genre` VARCHAR(45) NULL,
+  `url` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`))if not exist;
+*/
