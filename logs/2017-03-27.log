@@ -1,5 +1,0 @@
-14:24:38 - silly: [HTTP] Listening on port 9001
-14:24:38 - silly: [PeerManager] Starting Peer Manager with pseudo : client
-14:24:42 - silly: [PeerServer] A Client has Connected to this Server
-14:24:42 - silly: [PeerServer] A Client has Connected to this Server
-14:24:42 - silly: [PeerClient] Connection to http://localhost:9001 ... OK !
