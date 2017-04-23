@@ -11,12 +11,19 @@ var fs = require('fs');
 var file = require('../lib/file');
 var shoutcast = require('../lib/shoutcast');
 var stations = [];
+var first = null;
+
+
+function addTrack(url)
+{
+    first.addTrack(track);
+}
 
 
 module.exports = {
     start: function() {
         console.log("Démarrage de Flux Manager");
-        var first = shoutcast.Station(config);
+        first = shoutcast.Station(config);
         stations.push(first);
 
         var dir = "./mp3/";
@@ -76,5 +83,10 @@ module.exports = {
         // 2) Fonction pour ajouter une musique à la playlist
         // 3) Fonction pour supprimer une musique de la playlist (facultatif au début)
 
+    },
+
+    addTrack: function(url)
+    {
+        addTrack(url);
     }
 };
