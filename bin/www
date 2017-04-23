@@ -101,8 +101,8 @@ function onListening() {
   /**
    * Run PeerManager !
    */
-  peerManager.start(server, addr, addr.port);
- // fluxManager.start(server);
+//  peerManager.start(server, addr, addr.port);
+   fluxManager.start(server);
 }
 
 
@@ -110,7 +110,7 @@ function onListening() {
  * Mp3 Manager
  */
 //peerServer.start();
-mp3Manager.start();
+// mp3Manager.start();
 
 /**
  * flux Manager

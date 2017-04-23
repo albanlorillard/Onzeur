@@ -11,7 +11,7 @@
         // 3) Ajouter les musiques dans une variable ou une bdd si non ajouté grace aux info obtenu en 2
 	        // 4) Créer des requêtes (grâce à des routes) pour obtenir une musique en fonction d'une musique précédente.
  */
-
+                /*
 var express = require('express');
 var router = express.Router();
 var logger = require ('../logger');
@@ -71,10 +71,10 @@ module.exports={
 			if(err){res.json(err);}
 			else{res.json(rows);}
 		});*/
-		return "./mp3/02_As_you_know.mp3"; //todo
-	}
+//		return "./mp3/02_As_you_know.mp3"; //todo
+                    /*	}
 
-};
+};                                      */
 /*
 CREATE TABLE if not exists`musiconzeur`.`listmp3` (
   `id` INT NOT NULL AUTO_INCREMENT,
