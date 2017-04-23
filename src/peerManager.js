@@ -16,6 +16,7 @@ var peerServer = require('./peerServer.js');
 //var peerFunctions = require('./peerFunctions');
 //var P2Pconfig = require('../config');
 var myId = {};
+var serverP2P = null;
 
 module.exports = {
     myId: myId,
@@ -38,7 +39,7 @@ module.exports = {
         logger.silly("[PeerManager] Bonjour " + pseudo +" ( "+myId.addr+" ) \n");
 
         // ************ SERVER ********************//
-        var serverP2P = new peerServer(server, myId);
+        serverP2P = new peerServer(server, myId);
 
 
         //************* CLIENT ******************** //

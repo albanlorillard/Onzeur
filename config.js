@@ -2,7 +2,7 @@ module.exports = {
     // P2P CONFIG
     maxTTL:3,                   //Max Length of the Gnutella TTL
     maxConnectionsPerPeer:5,    //Max connection per Gnutella Peers
-
+    receiveMp3Directory: "./mp3/friendMp3/", //Download repertory of mp3 musics (please create directory before)
     // Mp3 Manager
     db:{"host": "127.0.0.1",    //Configuration of MySQL
     "user": "root",

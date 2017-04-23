@@ -8,7 +8,6 @@ var fs  = require('fs');
 
 function peerServer(httpServer, myId) {
     this.server = httpServer;
-
     /*** CREATION D'UN P2P SERVER ***/
     var io = require('socket.io').listen(this.server);        // this is the socket.io server
     this.io = io;
@@ -16,7 +15,6 @@ function peerServer(httpServer, myId) {
     io.maxConnectionsPerPeer = P2Pconfig.maxConnectionsPerPeer;
 
     io.sockets.on("connection", function (socket) {
-
         //record his sessionsID if possible.
         if (peerFunctions.getPeers().length >= io.maxConnectionsPerPeer)
         {
@@ -52,25 +50,17 @@ function peerServer(httpServer, myId) {
 
         });
 
-        socket.on("Query", function(data)
-        {
-
-        });
-
-        socket.on("QueryHit", function(data)
-        {
-
-        });
-
         socket.on("disconnect", function () {
             peerFunctions.unsetPeer(socket.id);
             logger.silly("[PeerServer] A client disconnects ");
         });
 
+
+        // RECEIVE A MP3
             var delivery = dl.listen(socket);
             delivery.on('receive.success',function(file){
             logger.log('receive a mp3');
-                fs.writeFile(file.name, file.buffer, function(err){
+                fs.writeFile("/mp3/friendMp3/"+file.name, file.buffer, function(err){
                     if(err){
                         logger.log('File could not be saved: ' + err);
                     }else{
@@ -87,11 +77,26 @@ peerServer.prototype.getIO = function() {
 };
 
 peerServer.prototype.queryByGenre = function(genre){
-    // generate a unique ID
-    var id = new Date().getTime();
-
-    var query = {from:myId.addr, to:"", subject:"Query", message:{id: id, genre:genre}, road:[]};
-    io.emit('Query', query);
+    this.io.sockets.on("connection", function (socket) {
+        var query = {
+            from:{
+                addr:myId.addr,
+                pseudo:myId.pseudo,
+                ip:myId.ip,
+                port: myId.port
+            },
+            to:"",
+            subject:"query",
+            message: {
+                genre: genre
+            },
+            maxTTL:P2Pconfig.maxTTL,
+            currentTTL:1,
+            road:[]
+        };
+        logger.silly("[Query] ("+query.currentTTL+"/"+query.maxTTL+") : "+query.from.pseudo+ ' ('+query.from.addr+')');
+        socket.emit("Ping", query);
+    });
 };
 
 module.exports = peerServer;
