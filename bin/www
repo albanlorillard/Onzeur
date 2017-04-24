@@ -99,14 +99,11 @@ function onListening() {
   logger.silly('[HTTP] Listening on ' + bind);
 
   /**
-   * Run PeerManager
+   * Run PeerManager !
    */
+//  peerManager.start(server, addr, addr.port);
+   fluxManager.start(server);
   peerManager.start(server, addr, addr.port);
-
-  /**
-   * Run fluxManager
-   */
- // fluxManager.start(server);
 }
 
 
@@ -114,6 +111,5 @@ function onListening() {
  * Mp3 Manager
  */
 mp3Manager.start();
-
 
 module.exports = server;

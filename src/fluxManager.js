@@ -7,9 +7,12 @@ var config = {
 
 var net = require("net");
 var http = require('http');
+
 var fs = require('fs');
+
 var file = require('../lib/file');
 var shoutcast = require('../lib/shoutcast');
+
 var stations = [];
 var first = null;
 
@@ -28,16 +31,19 @@ module.exports = {
 
         var dir = "./mp3/";
 
+        // Ici on ajoute les mp3 dans une liste quand ceux ci sont finit
         console.log('dir: ' + dir);
         var stats = fs.statSync(dir);
         if (stats.isDirectory()) {
             file.walkSync(dir, function(p, dirs, files) {
                 var len = files.length;
+                //console.log(len);
                 for (var i = 0; i < len; i++) {
                     var f = files[i];
 
                     if (f.indexOf('.mp3') >= 0) {
                         first.addTrack({file: p+'/'+f});
+                        //first.next;
                     }
                 }
             });
@@ -49,7 +55,12 @@ module.exports = {
                     console.log("Stream ended?");
                 });
             }).listen(7000);
-        first.start();
+
+            //first.next;
+            first.start();
+            //first.next;
+            //first.start();
+
 
         setInterval(function() {
             var total = 0;

@@ -51,12 +51,6 @@ module.exports = {
         }
        // var lo = new peerClient(myId.addr, myId, true); // Loop local
 
-
-        // Le but est de gérer la création d'un réseau P2P entre plusieurs serveur de ce projet.
-        // De gérer les connexions entre pairs
-        // De découvrir de nouvelles pairs
-        // De gérer la déconnexion à un pair
-        // De gérer les requêtes entre pair
     },
     queryByGenre: function(genre)
     {
